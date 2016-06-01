@@ -40,6 +40,16 @@ module.exports = function (grunt) {
                 }
             }
         },
+        sass: {
+            dist: {
+                options: {
+                    style: 'expanded'
+                },
+                files: {
+                    'assets/css/json.css': 'assets/css/json.scss'
+                }
+            }
+        },
         wiredep: {
             html: {
                 src: ["index.html"]
@@ -49,8 +59,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-wiredep');
 
     grunt.registerTask('default', ['jshint', 'concat']);
-    grunt.registerTask('dev', ['wiredep', 'watch']);
+    grunt.registerTask('dev', ['sass', 'wiredep', 'watch']);
 };

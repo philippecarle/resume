@@ -8,19 +8,23 @@
 }
 
 .json-key {
+    @extend .red-text .text-lighten-5;
 }
 
 .json-number {
-    font-weight: bolder;
+    @extend .red-text .text-lighten-4;
 }
 
 .json-string {
+    @extend .red-text .text-accent-1;
 }
 
 .json-boolean {
+    @extend .red-text .text-lighten-3;
     font-weight: bolder;
 }
 
 .json-null {
+    @extend .red-text .text-lighten-2;
     font-weight: bolder;
 }
