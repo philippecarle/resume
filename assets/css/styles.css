@@ -1,0 +1,21 @@
+body {
+    color: white;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #b71c1c;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.first-name {
+    font-weight: 200;
+    color: white;
+}
+
+.last-name {
+    font-weight: 400;
+}

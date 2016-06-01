@@ -1,0 +1,26 @@
+.json {
+    font-size: 0.9rem;
+    font-family: "Courier", "Courier New", "monospace";
+}
+
+.json ul {
+    padding-left: 30px;
+}
+
+.json-key {
+}
+
+.json-number {
+    font-weight: bolder;
+}
+
+.json-string {
+}
+
+.json-boolean {
+    font-weight: bolder;
+}
+
+.json-null {
+    font-weight: bolder;
+}

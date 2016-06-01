@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- bower:css -->
+    <link rel="stylesheet" href="assets/libs/google-code-prettify/bin/prettify.min.css" />
+    <link rel="stylesheet" href="assets/libs/Materialize/bin/materialize.css" />
+    <!-- endbower -->
+    <link rel="stylesheet" href="assets/css/styles.css"/>
+    <link rel="stylesheet" href="assets/css/json.css"/>
+</head>
+<body ng-app="app" class="red darken-2">
+
+<div class="container">
+
+    <h1 class="red-text"><span class="first-name">Philippe</span> <span
+            class="last-name red-text text-darken-4">CARLE</span></h1>
+
+    <hr>
+
+    <div ng-controller="ResumeController">
+        <pre ng-bind-html="resume" class="json flow-text"></pre>
+
+        <script type="text/ng-template"  id="json_renderer.html">
+            <span class="json-key">"{{ k }}"</span> :
+            <span ng-if="getType(v) != 'object' && getType(v) != 'array'" class="json-value json-{{ getType(v) }}">{{ v }}</span>
+            <span class="json-brace" ng-if="getType(v) == 'object'">{</span>
+            <span class="json-bracket" ng-if="getType(v) == 'array'">[</span>
+            <ul ng-if="getType(v) == 'object' || getType(v) == 'array'">
+                <li ng-repeat="(k, v) in v track by $index" ng-include="'json_renderer.html'"></li>
+            </ul>
+            <span class="json-brace" ng-if="getType(v) == 'object'">}</span>
+            <span class="json-bracket" ng-if="getType(v) == 'array'">]</span>
+            <span class="json-comma" ng-if="!$last">,</span>
+        </script>
+
+        <div class="json">
+            {
+            <ul>
+                <li ng-repeat="(k, v) in obj" ng-include="'json_renderer.html'"></li>
+            </ul>
+            }
+        </div>
+    </div>
+</div>
+
+<!-- bower:js -->
+<script src="assets/libs/angular/angular.js"></script>
+<script src="assets/libs/google-code-prettify/bin/prettify.min.js"></script>
+<script src="assets/libs/jquery/dist/jquery.js"></script>
+<script src="assets/libs/Materialize/bin/materialize.js"></script>
+<script src="assets/libs/underscore/underscore.js"></script>
+<!-- endbower -->
+
+<script src="app/app.module.js"></script>
+<script src="app/components/resume/resume.controller.js"></script>
+
+<script src="http://localhost:35729/livereload.js"></script>
+</body>
+</html>
