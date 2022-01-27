@@ -1,0 +1,27 @@
+{
+  "name": "philippe-carle-resume",
+  "version": "1.0.0",
+  "description": "Philippe Carle Resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "resume validate",
+    "serve": "resume serve",
+    "export": "resume export",
+    "help": "resume export --help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philippecarle/philippecarle.github.io.git"
+  },
+  "author": "Philippe Carle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philippecarle/philippecarle.github.io/issues"
+  },
+  "homepage": "https://github.com/philippecarle/philippecarle.github.io#readme",
+  "dependencies": {
+    "jsonresume-theme-stackoverflow": "^1.4.0",
+    "puppeteer": "^13.1.2",
+    "resume-cli": "^3.0.5"
+  }
+}

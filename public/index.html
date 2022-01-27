@@ -1,0 +1,1580 @@
+<!doctype html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Philippe CARLE</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <style>
+  /********************************************
+* 	reset from
+* 	http://meyerweb.com/eric/tools/css/reset/
+*******************************************/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/****************
+*	COMMONS
+****************/
+
+body,
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 13px;
+    color: #40484f;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.46153846;
+    text-align: left;
+    -webkit-text-size-adjust: 100%;
+}
+
+p {
+    display: block;
+    margin-bottom: 1.3em;
+}
+
+a {
+    color: #0095ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0c65a5;
+    text-decoration: underline;
+}
+
+ul {
+    margin-top: 1rem;
+}
+
+li {
+    list-style-type: square;
+    list-style-position: outside;
+    margin-left: 1.3em;
+}
+
+.highlights>li>p {
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.67rem;
+}
+
+h3 {
+    font-size: 1.27rem;
+}
+
+em {
+    color: #757575;
+}
+
+blockquote {
+    margin-bottom: 1em;
+}
+
+strong {
+    font-weight: 700;
+}
+
+
+/* main container */
+
+#resume {
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+
+/* every section wrapper */
+
+.section {
+    margin-bottom: 1rem;
+}
+
+section .location {
+    margin-right: .5em;
+    color: #606d76;
+    font-weight: 700;
+}
+
+#contact {
+    margin-top: .5rem;
+}
+
+#profiles .item {
+    padding: 0;
+}
+
+#header>#profiles,
+#header>#contact,
+#skills,
+#languages,
+#interests {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+#header>div {
+    line-height: 1.5;
+}
+
+#header>div>div {
+    margin-right: 1.2em;
+}
+
+#header h1.name {
+    font-size: 2.8rem;
+    font-weight: 100;
+    line-height: 100%;
+}
+
+#header h2.label {
+    color: #202931;
+    font-size: 1.47rem;
+    font-weight: 300;
+}
+
+#header .picture {
+    width: 11em;
+    float: right;
+    border-radius: 4px;
+}
+
+.main-summary {
+    background: #f1f8ff;
+    padding: 1.2em 1em;
+    margin-top: 1rem;
+}
+
+.main-summary p {
+    margin: .15em 0 0;
+}
+
+h2.section-title {
+    display: inline-block;
+    background: #fff;
+    padding: 0 1em 0.3em 0;
+    color: #ff6d1f;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    font-size: .9rem;
+}
+
+.section>header {
+    position: relative;
+}
+
+.fa {
+    margin-right: 0.25em;
+}
+
+.section>header::after {
+    position: absolute;
+    left: 0;
+    top: .7em;
+    height: 1px;
+    background: #ccc;
+    content: "";
+    width: 100%;
+    z-index: -100;
+    display: block;
+}
+
+.section.main-summary>section {
+    margin: 0;
+}
+
+.section>section>header {
+    font-size: 1.38rem;
+    position: relative;
+    margin-top: .7em;
+}
+
+.section>section>header:first-of-type {
+    margin: 0;
+}
+
+.section>section>header .space-left {
+    position: absolute;
+    left: -1.56rem;
+    top: 5px;
+    color: #aaa;
+    line-height: 1;
+    opacity: 0;
+}
+
+.position,
+.company,
+.organization,
+.institution,
+.date,
+.area,
+.studyType,
+.title,
+.awarder {
+    display: inline;
+}
+
+.position,
+.studyType,
+.area,
+.title,
+.language,
+.name {
+    font-weight: 600;
+}
+
+.company::before,
+.institution::before,
+.organization::before,
+.awarder::before {
+    content: "at "
+}
+
+.company,
+.institution,
+.organization,
+.awarder {
+    color: #606d76;
+    font-weight: 400;
+}
+
+.section header .date {
+    font-size: 1rem;
+    display: inline-table;
+    padding: .1em 0;
+    font-weight: 600;
+}
+
+ul.keywords,
+ul.courses {
+    margin-top: .5em;
+}
+
+ul.keywords li,
+ul.courses li {
+    display: inline-block;
+    margin: 2px 2px 2px 0;
+    padding: 4px 5px 5px;
+    font-size: .9rem;
+    line-height: 1;
+    text-transform: lowercase;
+    color: #3e6d8e;
+    background-color: #dfeaf1;
+    border: 0 solid #dfeaf1;
+    white-space: nowrap;
+}
+
+ul.keywords li:hover,
+ul.courses li:hover {
+    background: #dfeaf0;
+}
+
+.item {
+    padding: .5em 0;
+}
+
+.gpa {
+    padding-bottom: .5em;
+}
+
+.fa.social {
+    font-size: 1.1em;
+}
+
+
+/* Social Media Brand Colors */
+
+.google-plus {
+    color: #dd4b39;
+}
+
+.tumblr {
+    color: #32506d;
+}
+
+.foursquare {
+    color: #0072b1;
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.linkedin {
+    color: #007bb6;
+}
+
+.pinterest {
+    color: #cb2027;
+}
+
+.dribbble {
+    color: #ea4c89;
+}
+
+.instagram {
+    color: #517fa4;
+}
+
+.twitter {
+    color: #00aced;
+}
+
+.soundcloud {
+    color: #ff3a00;
+}
+
+.wordpress {
+    color: #21759b;
+}
+
+.youtube {
+    color: #bb0000;
+}
+
+.github {
+    color: #171515;
+}
+
+.stack-overflow {
+    color: #828386;
+    position: relative;
+}
+
+.flickr {
+    color: #ff0084;
+}
+
+.stack-overflow::after {
+    position: absolute;
+    left: 0;
+    content: '\f16c';
+    color: #f68a1f;
+    overflow: hidden;
+    height: 100%;
+}
+
+.telegram {
+    color: #2291c3;
+}
+
+#languages .item,
+#skills .item,
+#interests .item {
+    width: 15em;
+    padding: 0 .5em .5em 0;
+    border-bottom: none;
+}
+
+#skills .item {
+    width: 16em;
+}
+
+#skills .item .keywords {
+    width: 15em;
+}
+
+
+/* Skill chart */
+
+.level {
+    margin-bottom: .5em;
+}
+
+.level .bar {
+    border: 1px solid #ddd;
+    display: block;
+    width: 10em;
+    height: 5px;
+    position: relative;
+}
+
+.level .bar::after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    background: black;
+    height: 5px;
+}
+
+.level.beginner .bar::after {
+    background: #EB5F51;
+    width: 2.5em;
+}
+
+.level.intermediate .bar::after {
+    background: #ffdf1f;
+    width: 5em;
+}
+
+.level.advanced .bar::after,
+.level.fluent .bar::after {
+    background: #5CB85C;
+    width: 7.5em;
+}
+
+.level.master .bar::after,
+.level.native.speaker .bar::after {
+    background: #59C596;
+    width: 10em;
+}
+
+#references .item {
+    padding-left: .5em;
+    border-left: 5px solid #ff6d1f;
+}
+
+.toggle-item {
+  visibility: hidden;
+}
+
+/******************
+*	HELPER CLASSES
+******************/
+
+.clear::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.display {
+    display: block;
+    opacity: 1 !important;
+}
+
+.margin1 {
+    margin-bottom: .5rem;
+}
+
+
+/****************
+*		TABLET
+****************/
+
+@media screen and (min-width: 602px) {
+    #resume {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+
+/****************
+*		LAPTOP
+****************/
+
+@media screen and (min-width: 1025px) {
+    li {
+        margin-left: 1.5em;
+    }
+    #resume {
+        width: 820px;
+        margin: 2rem auto;      
+    }
+    .section>section>header .space-left {
+        opacity: 1;
+        cursor: pointer;
+    }
+    .section>section {
+        margin-left: 1.67rem;
+    }
+    .toggle-item {
+        transform: translate(-9999px);
+    }
+    .toggle-item+label {
+        display: block;
+        margin-top: -16px;
+    }
+    .toggle-item:checked+label:after {
+        content: '\f0d7';
+    }
+    .toggle-item+label:after {
+        float: left;
+        cursor: pointer;
+        margin-left: -20px;
+        color: #aaa;
+        font-size: 16px;
+        content: '\f0da';
+        font-family: Fontawesome;
+    }
+    .toggle-item~.item {
+        height: 0;
+        opacity: 0;
+    }
+    .toggle-item:checked~.item {
+        height: auto;
+        opacity: 1;
+        transition: all .5s linear;
+    }
+    .company::before,
+    .institution::before,
+    .organization::before,
+    .awarder::before {
+        content: "| ";
+    }
+    .header-left {
+        float: left;
+        width: 70%;
+        word-break: normal;
+    }
+    .section header .date {
+        float: right;
+        padding: .2em;
+    }
+    .display {
+        display: none;
+    }
+    .display:not(.none) {
+        display: block;
+    }
+}
+
+@media print {
+    #resume {
+        margin: 0;
+        padding: 0;
+        -ms-word-wrap: break-word;
+        word-wrap: break-word;
+        line-height: 1.3;
+        /*font-family: Arial, Georgia, "Lucida Grande", sans-serif;*/
+    }
+    @page {
+        margin: 1cm 1.4cm;
+    }
+    .item-count {
+        display: none;
+    }
+    .company::before,
+    .institution::before,
+    .organization::before,
+    .awarder::before {
+        content: "at ";
+    }
+    .main-summary {
+        padding: 2rem 0;
+    }
+    .section {
+        margin: .8rem 0;
+        padding: 0;
+    }
+    .section header {
+        padding-bottom: .15rem;
+    }
+    .section .location {
+        padding-bottom: .15rem;
+    }
+    .stack-overflow::after {
+        content: "";
+    }
+    .fa.social {
+        color: #828386;
+    }
+    ul {
+        margin-top: .4em;
+    }
+    ul,
+    li {
+        padding: 0;
+    }
+    ul.keywords li,
+    ul.courses li {
+        margin: 0;
+        padding: 0;
+        font-size: .8rem;
+        text-transform: lowercase;
+    }
+    ul.keywords li::after,
+    ul.courses li::after {
+        padding: 0 0 0 .1rem;
+        content: " |";
+    }
+    ul.keywords::before,
+    ul.courses::before {
+        font-size: .8rem;
+        font-weight: 600;
+    }
+    ul.keywords::before {
+        content: "Skills acquired: ";
+    }
+    #skills .keywords::before {
+        content: '';
+    }
+    .section p {
+        margin: 0;
+        padding: 0;
+    }
+    ul.courses::before {
+        content: "Major courses: ";
+    }
+    ul.keywords li:last-of-type::after,
+    ul.courses li:last-of-type::after {
+        content: "";
+    }
+    .level em {
+        font-style: normal;
+        padding: .1em 0;
+    }
+    .level .bar {
+        display: none;
+    }
+    #profiles .item {
+        padding: 0;
+    }
+    .item.display {
+        display: block;
+        opacity: 1 !important;
+    }
+}
+
+  </style>
+  
+  </head>
+  <body>
+  
+  <div id="resume">
+    	<header id="header" class="clear">
+    		<img class="picture" src="https://en.gravatar.com/userimage/108274017/0198e8f42d928bc6c72fe29defb2cc4b.jpg?size&#x3D;500" alt="Philippe CARLE" />
+    		<div class="middle">
+    			<h1 class="name">Philippe CARLE</h1>
+    			<h2 class="label">Web Developer</h2>
+    		</div>
+    		
+    		<span class="location">
+    			<span class="address">104 41st Avenue SW,</span> 
+    			<span class="postalCode">T2S0Z2,</span> 
+    			<span class="city">Calgary,</span> 
+    			<span class="region">Alberta</span> 
+    			<span class="countryCode">CA</span> 
+    		</span>
+    		
+    
+    		<div id="contact">
+    			<div class="website">
+    				<span class="fa fa-external-link"></span>
+    				<a target="_blank" target="_blank" href="https://ca.rlephilip.pe">https://ca.rlephilip.pe</a>
+    			</div>
+    			<div class="email">
+    				<span class="fa fa-envelope-o"></span>
+    				<a href="mailto:c@rlephilip.pe">c@rlephilip.pe</a>
+    			</div>
+    			<div class="phone">
+    				<span class="fa fa-mobile"></span>
+    				<a href="tel:+1 647 333 7661">+1 647 333 7661</a>
+    			</div>
+    		</div>
+    
+    		<div id="profiles">
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-github github social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://github.com/philippecarle">philippecarle</a>
+    					</span> 
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-twitter twitter social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://twitter.com/philippe_carle">carle_philippe</a>
+    					</span> 
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-linkedin linkedin social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://www.linkedin.com/in/philcarle">philcarle</a>
+    					</span> 
+    				</div>
+    			</div>
+    			<div class="item">
+    				<div class="username">
+    					<span class="fa fa-stack-overflow stack-overflow social"></span>
+    					<span class="url">
+    						<a target="_blank" href="https://stackoverflow.com/cv/philippecarle">philippecarle</a>
+    					</span> 
+    				</div>
+    			</div>
+    		</div>
+    	</header>
+    
+    	<section class="section main-summary">
+    		<section>
+    			<div><p>Hi!</p><p>I'm a Web Developer.</p><p>I've been working for almost a decade as a Lead Developer on advanced Web Apps and APIs in PHP, mainly using the Symfony Framework. In order to maintain a high level of quality and maintenability, I have been collaborating regularly wih senior consultants and developers from SensioLabs (the creators of Symfony) and with some of their close business partners.</p><p>I have been working as a freelance, as well as in a successful startup and now in an international industrial group.</p>I always advocate in my teams for best practices compliance as well as I keep in mind business' needs and features-delivery expectations 🚀.</p><p>I'm comfortable with frontend tooling as well (webpack, npm, yarn, sass, less...) and I'm familiar with ReactJS. I'm in charge of all the CI/CD process using Gitlab as well as the Linux web servers (our infrastructure was audited by a devops company in Paris and our CI/CD process was evaluated as excellent).</p><p>I'm very interested by the Go language and I have been leveraging it in some personal projects.</p>I am open to similar positions but I am also ready for new adventures, wether it is on a different stack, or more devops-oriented or also for a managerial position.</p></div>
+    		</section>
+    	</section>
+    
+    <section class="section margin1">
+    	<header>
+    		<h2 class='section-title'>Skills</h2>
+    	</header>
+    	<section id="skills">
+    		<div class="item">
+    			<h3 class="name">
+    				Web development
+    			</h3>
+    			 
+    			<div class="level master 🎖️">
+    				<em>Master 🎖️</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>PHP</li>
+    				<li>Javascript</li>
+    				<li>Go</li>
+    				<li>HTML5</li>
+    				<li>CSS3</li>
+    				<li>Sass</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Testing
+    			</h3>
+    			 
+    			<div class="level advanced aficionados 🌵">
+    				<em>Advanced Aficionados 🌵</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>PHPUnit</li>
+    				<li>Behat</li>
+    				<li>Blackfire</li>
+    				<li>TDD</li>
+    				<li>BDD</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Best Practices
+    			</h3>
+    			 
+    			<div class="level advanced guard 💂">
+    				<em>Advanced Guard 💂</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>SOLID</li>
+    				<li>KISS</li>
+    				<li>Twelve-Factor App</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				REST
+    			</h3>
+    			 
+    			<div class="level master evangelist ⛪">
+    				<em>Master Evangelist ⛪</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>API</li>
+    				<li>JSON</li>
+    				<li>Richardson Maturity Model</li>
+    				<li>Hypermedia</li>
+    				<li>API-Platform</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Symfony
+    			</h3>
+    			 
+    			<div class="level master ninja 🥋">
+    				<em>Master Ninja 🥋</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>PHP</li>
+    				<li>Framework</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				ReactJS
+    			</h3>
+    			 
+    			<div class="level beginner junior 🐥">
+    				<em>Beginner Junior 🐥</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Javascript</li>
+    				<li>Framework</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				CI/CD
+    			</h3>
+    			 
+    			<div class="level advanced lover ❤️">
+    				<em>Advanced Lover ❤️</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Gitlab</li>
+    				<li>Travis</li>
+    				<li>Scrutinizer</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Database
+    			</h3>
+    			 
+    			<div class="level advanced consumer 🥞">
+    				<em>Advanced Consumer 🥞</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>MySQL</li>
+    				<li>MariaDB</li>
+    				<li>SQL Server</li>
+    				<li>ElasticSearch</li>
+    				<li>MongoDB</li>
+    				<li>Redis</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Containers
+    			</h3>
+    			 
+    			<div class="level intermediate enthusiast 🎉">
+    				<em>Intermediate Enthusiast 🎉</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>docker</li>
+    				<li>compose</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Tooling
+    			</h3>
+    			 
+    			<div class="level advanced addict 🦄">
+    				<em>Advanced Addict 🦄</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Git</li>
+    				<li>Composer</li>
+    				<li>PHPStan</li>
+    				<li>Rector</li>
+    				<li>Webpack</li>
+    				<li>Linters</li>
+    				<li>NPM</li>
+    				<li>Yarn</li>
+    				<li>CMake</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				OS
+    			</h3>
+    			 
+    			<div class="level advanced power-user 💪">
+    				<em>Advanced Power-User 💪</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Mac OS X</li>
+    				<li>Linux (Debian / CentOS / Ubuntu)</li>
+    			</ul>
+    		</div>
+    		<div class="item">
+    			<h3 class="name">
+    				Graphic Design
+    			</h3>
+    			 
+    			<div class="level advanced veteran 🧓">
+    				<em>Advanced Veteran 🧓</em>
+    				<div class="bar"></div>
+    			</div>
+    			<ul class="keywords">
+    				<li>Photoshop</li>
+    				<li>Illustrator</li>
+    				<li>Indesign</li>
+    			</ul>
+    		</div>
+    	</section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Work Experience <span class="item-count">(5)</span></h2>
+      </header>
+    
+      <section id="work">
+        <section class="work-item">
+    
+            <input id="work-item-0" type="checkbox" class="toggle-item" checked="checked" />
+            <label for="work-item-0"></label>
+    
+    			<header>
+    				<div class="position">Lead Developer</div>
+    				<div class="company">TLD Europe / TLD Canada 🛫</div>
+    				<div class="date">
+    				  <span class="startDate">June 2016</span> 
+    					<span class="endDate">- Current</span>
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="https://www.tld-group.com">https://www.tld-group.com</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Managed the development of web applications as well as EDI (Electronic Data Interchange) and ERP (Enterprise Resource Planning) interactions in a very challenging industrial environment for TLD Group, world leader of Ground Support Equipment. </p><p>Actively supported progressive migration of all the legacy codebase (~800K LOC of old procedural PHP4/5 code) to the Symfony framework and PHP7 and PHP8, delivering new features and bug fixes daily. In charge of the web portals rewriting during the ERP migration. </p><p>Managed the international team, involved in new developers interviews and technical tests, intensively contributed to the code review process, priorized tasks, collaborated and worked on specifications, managed communication with external providers.</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Management of international projects</p></li>
+                <li><p>Testing, CI/CD, devops, Best Practices</p></li>
+                <li><p>Symfony encapsulation of a legacy system</p></li>
+                <li><p>Progressive migration of a big procedural codebase</p></li>
+                <li><p>ERP migration from Baan IV to Infor LN</p></li>
+                <li><p>Complex business analysis for a large and diverse manufacturing company</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-1" type="checkbox" class="toggle-item" />
+            <label for="work-item-1"></label>
+    
+    			<header>
+    				<div class="position">Lead Developer</div>
+    				<div class="company">Apodis Pharma 💊</div>
+    				<div class="date">
+    				  <span class="startDate">September 2014</span> 
+    					<span class="endDate">- June 2013</span> 
+    				</div>
+    			</header>
+    			
+        	<span class="website">
+        		<a target="_blank" href="https://www.apodispharma.com">https://www.apodispharma.com</a>
+        	</span>      	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Developed the several versions of the services and purchasing platform for 750 french pharmacies and handled the R&D for several side projects as well. Successfully maintained and optimized several Apps and APIs to respond to a high and time-critical demand of POC (Proof Of Concepts) and Beta versions for the commercial and management teams. </p><p>Successfully designed a complex REST API exposing data resulting from live and advanced processing of sales data coming from the pharmacists ERP. </p><p>Accomplished a big and robust refactoring of all systems to a service-oriented architecture in 2015. </p><p>Products built during those years allowed the company to raise 7M€.</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Startup Environment and Agility</p></li>
+                <li><p>Management and coaching of 9 frontend and backend developers</p></li>
+                <li><p>Advanced pharmaceutical sales data analysis</p></li>
+                <li><p>Multiple projects management</p></li>
+                <li><p>7M€ fund raising</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-2" type="checkbox" class="toggle-item" />
+            <label for="work-item-2"></label>
+    
+    			<header>
+    				<div class="position">Founder</div>
+    				<div class="company">Itch 🎨</div>
+    				<div class="date">
+    				  <span class="startDate">September 2008</span> 
+    					<span class="endDate">- September 2013</span> 
+    				</div>
+    			</header>
+    			
+         	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Managed my own company during five years (including two with an associate). Promoted, enlarged, reinforced and monetized my skills in web development and graphic design on behalf of various companies (including Apodis Pharma which became my employer) and public administrations.</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Started as a Freelance</p></li>
+                <li><p>Commercial and technical relations with customers</p></li>
+                <li><p>Quotations</p></li>
+                <li><p>Countability</p></li>
+                <li><p>Commitment</p></li>
+                <li><p>Self-enhancement</p></li>
+                <li><p>Continuous learning</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-3" type="checkbox" class="toggle-item" />
+            <label for="work-item-3"></label>
+    
+    			<header>
+    				<div class="position">Teacher</div>
+    				<div class="company">François Rabelais University and Notre-Dame-La-Riche Institute 🏫</div>
+    				<div class="date">
+    				  <span class="startDate">September 2012</span> 
+    					<span class="endDate">- September 2015</span> 
+    				</div>
+    			</header>
+    			
+         	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Teacher in graphic design and web technologies for the University and for the private school Notre-Dame-La-Riche (~500h per year).</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Pedagogy</p></li>
+                <li><p>knowledge transmission</p></li>
+            </ul>
+        	</div>
+        </section>
+        <section class="work-item">
+    
+            <input id="work-item-4" type="checkbox" class="toggle-item" />
+            <label for="work-item-4"></label>
+    
+    			<header>
+    				<div class="position">Public relations assistant</div>
+    				<div class="company">Théâtre Nouvel Olympia 🎭</div>
+    				<div class="date">
+    				  <span class="startDate">March 2004</span> 
+    					<span class="endDate">- September 2008</span> 
+    				</div>
+    			</header>
+    			
+         	<div class="item" id="work-item">
+            <div class="summary">
+              <p><p>Involved in many of the administrative and communication-related processes inside the theater, from fine analysis of audience until mass-mailing, including comedians welcoming, openers hiring and ticketing systems management</p></p>
+            </div>
+            <ul class="highlights">
+                <li><p>Versatility</p></li>
+                <li><p>Adaptability</p></li>
+                <li><p>DIY and low-cost solutions</p></li>
+                <li><p>Culture</p></li>
+            </ul>
+        	</div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Volunteer</h2>
+      </header>
+      <section id="volunteer">
+        <section class="volunteer-item">
+    
+            <input id="volunteer-item-0" type="checkbox" class="toggle-item" checked="checked" />
+            <label for="volunteer-item-0"></label>
+    
+          <header>
+            <div class="header-left">
+              <div class="position">
+                Local presidency, National Bureau and National Secretariat
+              </div>
+              <div class="organization">
+                GLAMF
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              February 2010
+              </span>
+              <span class="endDate">
+              - December 2018
+              </span>
+            </div>
+          </header>
+          <div class="item">
+            <div class="summary">
+              <p><p>Local and national associative involvement</p></p>
+            </div>
+            <ul class="highlights">
+              <li><p>Management of local community</p></li>
+              <li><p>Management of a national association with ~15000 members</p></li>
+              <li><p>Philosophical research, personal development</p></li>
+            </ul>
+          </div>
+        </section>
+        <section class="volunteer-item">
+    
+            <input id="volunteer-item-1" type="checkbox" class="toggle-item" />
+            <label for="volunteer-item-1"></label>
+    
+          <header>
+            <div class="header-left">
+              <div class="position">
+                Help for Christmas Eve
+              </div>
+              <div class="organization">
+                Les Petites Sœurs des Pauvres
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              December 2012
+              </span>
+              <span class="endDate">
+              - December 2012
+              </span>
+            </div>
+          </header>
+          <div class="item">
+            <div class="summary">
+              <p><p>Helping those in need for Christmas</p></p>
+            </div>
+            <ul class="highlights">
+              <li><p>Caring about socially-isolated people</p></li>
+              <li><p>Spending a Christmas dinner with them</p></li>
+            </ul>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>Education <span class="item-count">(6)</span></h2>
+      </header>
+    
+      <section id="education">
+        <section class="education-item">
+          <header>
+            <div class="header-left">
+              <div class="studyType">
+                Conference
+              </div>
+              <div class="area">
+                World
+              </div>
+              <div class="institution">
+                SensioLabs
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2021
+              </span>
+              <span class="endDate">
+              - 2021
+              </span>
+            </div>
+          </header>
+    
+    
+          <ul class="courses">
+            <li>SymfonyWorld Online 2021 Winter Edition</li>
+          </ul>
+    
+          <div class="item">
+          </div>
+        </section>
+        <section class="education-item">
+          <header>
+            <div class="header-left">
+              <div class="studyType">
+                Conferences and Workshop
+              </div>
+              <div class="area">
+                Paris
+              </div>
+              <div class="institution">
+                DotGo
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2017
+              </span>
+              <span class="endDate">
+              - 2017
+              </span>
+            </div>
+          </header>
+    
+    
+          <ul class="courses">
+            <li>DotGo Conferences</li>
+            <li>One-day workshop with William Kennedy (Managing partner at Ardan Labs)</li>
+          </ul>
+    
+          <div class="item">
+          </div>
+        </section>
+        <section class="education-item">
+          <header>
+            <div class="header-left">
+              <div class="studyType">
+                Golang, Learn how to code by Todd McLeod
+              </div>
+              <div class="area">
+                Online
+              </div>
+              <div class="institution">
+                Udemy
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2017
+              </span>
+              <span class="endDate">
+              - 2017
+              </span>
+            </div>
+          </header>
+    
+    
+          <ul class="courses">
+            <li>Learn how to code by Todd McLeod</li>
+            <li>Certificate on https://ude.my/UC-AEL49E62</li>
+          </ul>
+    
+          <div class="item">
+          </div>
+        </section>
+        <section class="education-item">
+          <header>
+            <div class="header-left">
+              <div class="studyType">
+                Coaching
+              </div>
+              <div class="area">
+                Paris
+              </div>
+              <div class="institution">
+                SensioLabs
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2016
+              </span>
+              <span class="endDate">
+              - 2017
+              </span>
+            </div>
+          </header>
+    
+    
+          <ul class="courses">
+            <li>Coaching and reviews of TLD Developments</li>
+            <li>Best practices and advanced testing</li>
+          </ul>
+    
+          <div class="item">
+          </div>
+        </section>
+        <section class="education-item">
+          <header>
+            <div class="header-left">
+              <div class="studyType">
+                Conferences
+              </div>
+              <div class="area">
+                World
+              </div>
+              <div class="institution">
+                SensioLabs
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2015
+              </span>
+              <span class="endDate">
+              - 2016
+              </span>
+            </div>
+          </header>
+    
+    
+          <ul class="courses">
+            <li>SymfonyCon Berlin 2016</li>
+            <li>SymfonyLive San Francisco 2015</li>
+            <li>SymfonyCon Paris 2015</li>
+          </ul>
+    
+          <div class="item">
+          </div>
+        </section>
+        <section class="education-item">
+          <header>
+            <div class="header-left">
+              <div class="studyType">
+                Professional training
+              </div>
+              <div class="area">
+                Paris
+              </div>
+              <div class="institution">
+                SensioLabs
+              </div>
+            </div>
+            <div class="date">
+              <span class="startDate">
+              2014
+              </span>
+              <span class="endDate">
+              - 2014
+              </span>
+            </div>
+          </header>
+    
+    
+          <ul class="courses">
+            <li>Symfony</li>
+          </ul>
+    
+          <div class="item">
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="section margin1">
+      <header>
+        <h2 class='section-title'>Languages</h2>
+      </header>
+      <section id="languages">
+        <div class="display">
+          <h3 class="language">
+            English 🇨🇦🇺🇸
+          </h3>
+          <div class="item">
+            <div class="level fluency fluent">
+              <em>Fluent</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="display">
+          <h3 class="language">
+            French 🇫🇷
+          </h3>
+          <div class="item">
+            <div class="level fluency native speaker">
+              <em>Native speaker</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="display">
+          <h3 class="language">
+            German 🇩🇪
+          </h3>
+          <div class="item">
+            <div class="level fluency basic understanding">
+              <em>Basic understanding</em>
+              <div class="bar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="section margin1">
+      <header>
+        <h2 class='section-title' class='section-title'>Interests</h2>
+      </header>
+      <section id="interests">
+        <div class="item">
+          <h3 class="name">
+            Music 🔊
+          </h3>
+          <ul class="keywords">
+            <li>Electronic</li>
+            <li>Experimental</li>
+            <li>Ambient</li>
+            <li>Modular Synths</li>
+            <li>Drummer</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Burning Man 🔥
+          </h3>
+          <ul class="keywords">
+            <li>Festival</li>
+            <li>6 editions</li>
+            <li>Creative space</li>
+            <li>Social experiment</li>
+          </ul>
+        </div>
+        <div class="item">
+          <h3 class="name">
+            Travel ✈️
+          </h3>
+          <ul class="keywords">
+            <li>United States of America</li>
+            <li>California</li>
+            <li>Oregon</li>
+            <li>Nevada</li>
+            <li>Spain</li>
+            <li>Portugal</li>
+            <li>Scotland</li>
+            <li>Netherland</li>
+            <li>Germany</li>
+            <li>Denmark</li>
+            <li>Canada</li>
+            <li>Croatia</li>
+            <li>South Africa</li>
+          </ul>
+        </div>
+      </section>
+    </section>
+    <section class="section">
+      <header>
+        <h2 class='section-title'>References</h2>
+      </header>
+      <section id="references">
+        <div class="item">
+          <blockquote class="reference">
+            &#8220;&#32;After working in his team for almost 2 years, I can say without a doubt that Philippe Carle is an excellent Lead Developer. 
+    During those two years, I spent at least an hour every week with him to follow my projects and find ways to deal with complex problems like optimization. He found time to teach me more about php and routing when I was struggling to understand parts of our technological stack and to listen to me when I had a different opinion about the best way to develop a solution. 
+    I know he was doing the same thing for everyone on the team but still never missed a meeting nor an important deadline despite the complicated and often tough environment. 
+    The team grew stronger thanks to him and I will happily work with him in the future if the opportunity presents itself.&#32;&#8221;
+          </blockquote>
+          <div class="name">
+            Martin Degenne - TLD
+          </div>
+        </div>
+      </section>
+    </section>
+
+  </body>
+</html>
