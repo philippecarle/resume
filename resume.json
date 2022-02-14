@@ -2,15 +2,15 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
   "basics": {
     "name": "Philippe CARLE",
-    "label": "Web Developer",
+    "label": "Lead Full-Stack Web Developer",
     "picture": "https://en.gravatar.com/userimage/108274017/0198e8f42d928bc6c72fe29defb2cc4b.jpg?size=500",
     "email": "c@rlephilip.pe",
     "phone": "+1 647 333 7661",
     "website": "https://ca.rlephilip.pe",
-    "summary": "Hi!\nI'm a Web Developer.\nI've been working for almost a decade as a Lead Developer on advanced Web Apps and APIs in PHP, mainly using the Symfony Framework. In order to maintain a high level of quality and maintenability, I have been collaborating regularly wih senior consultants and developers from SensioLabs (the creators of Symfony) and with some of their close business partners.\nI have been working as a freelance, as well as in a successful startup and now in an international industrial group.</p>I always advocate in my teams for best practices compliance as well as I keep in mind business' needs and features-delivery expectations 🚀.\nI'm comfortable with frontend tooling as well (webpack, npm, yarn, sass, less...) and I'm familiar with ReactJS. I'm in charge of all the CI/CD process using Gitlab as well as the Linux web servers (our infrastructure was audited by a devops company in Paris and our CI/CD process was evaluated as excellent).\nI'm very interested by the Go language and I have been leveraging it in some personal projects.</p>I am open to similar positions but I am also ready for new adventures, wether it is on a different stack, or more devops-oriented or also for a managerial position.",
+    "summary": "I have been developing advanced Web Apps and APIs in PHP and Javascript for over a decade, mainly using the Symfony framework. In order to maintain a high level of quality and maintainability, I have been collaborating regularly with senior consultants and developers from SensioLabs (the creators of Symfony) and with some of their close business partners.\nI have been working as a freelancer, as well as in a successful startup and now in an international industrial group.\nI always advocate for best practices compliance while focusing on business' needs and features-delivery expectations.\nI have a significant experience with frontend tooling (webpack, npm, yarn, sass, less...) and am familiar with ReactJS.\nIn my current position, I am in charge of the CI/CD process as well as the provisioning of Linux web servers. Our global infrastructure was audited by a devops company in Paris and our CI/CD process was rated as excellent.\nI am also very interested by the Go language and I have been leveraging it in some personal projects.\n\n This resume is maintained using the <a href=\"https://jsonresume.org\">JSON Resume</a> initiative for JSON-based standard for resumes. The Github repository with the JSON file and the code to generate the resume can be found <a href=\"https://github.com/philippecarle/resume\">here</a>. \nI am originally from France and emigrated to Canada at the end of 2018. I am a Permanent Resident.",
     "location": {
-      "address": "104 41st Avenue SW",
-      "postalCode": "T2S0Z2",
+      "address": "104 41st Ave SW", 
+      "postalCode": "T2S 0Z2",
       "city": "Calgary",
       "countryCode": "CA",
       "region": "Alberta"
@@ -20,11 +20,6 @@
         "network": "Github",
         "username": "philippecarle",
         "url": "https://github.com/philippecarle"
-      },
-      {
-        "network": "Twitter",
-        "username": "carle_philippe",
-        "url": "https://twitter.com/philippe_carle"
       },
       {
         "network": "Linkedin",
@@ -41,15 +36,15 @@
   "work": [
     {
       "company": "TLD Europe / TLD Canada 🛫",
-      "position": "Lead Developer",
+      "position": "Lead Developer (remote position)",
       "website": "https://www.tld-group.com",
       "startDate": "2016-06-20",
-      "summary": "Managed the development of web applications as well as EDI (Electronic Data Interchange) and ERP (Enterprise Resource Planning) interactions in a very challenging industrial environment for TLD Group, world leader of Ground Support Equipment. \nActively supported progressive migration of all the legacy codebase (~800K LOC of old procedural PHP4/5 code) to the Symfony framework and PHP7 and PHP8, delivering new features and bug fixes daily. In charge of the web portals rewriting during the ERP migration. \nManaged the international team, involved in new developers interviews and technical tests, intensively contributed to the code review process, priorized tasks, collaborated and worked on specifications, managed communication with external providers.",
+      "summary": "Managing the development of web applications as well as EDI (Electronic Data Interchange) and ERP (Enterprise Resource Planning) interactions in a very challenging industrial environment for TLD Group, world leader of Ground Support Equipment. \nActively supporting progressive migration of all the legacy codebase (~800K LOC of old procedural PHP4/5 code) to the Symfony framework and to PHP7 & 8, while still delivering new features and bug fixes daily. \nResponsible for the web portals extensive rewriting during the ERP migration (TLD web apps rely heavily on the ERP, they are in fact an extension of the ERP's features). \nLeading an international team, actively involved in new developer interviews and technical tests, intensively contributing to the code review process, task prioritization, defining specifications and collaborating with external contractors.",
       "highlights": [
         "Management of international projects",
-        "Testing, CI/CD, devops, Best Practices",
+        "Testing, CI/CD, devops, best practices",
         "Symfony encapsulation of a legacy system",
-        "Progressive migration of a big procedural codebase",
+        "Progressive migration of a large procedural codebase",
         "ERP migration from Baan IV to Infor LN",
         "Complex business analysis for a large and diverse manufacturing company"
       ]
@@ -60,12 +55,11 @@
       "website": "https://www.apodispharma.com",
       "startDate": "2014-09-01",
       "endDate": "2013-06-20",
-      "summary": "Developed the several versions of the services and purchasing platform for 750 french pharmacies and handled the R&D for several side projects as well. Successfully maintained and optimized several Apps and APIs to respond to a high and time-critical demand of POC (Proof Of Concepts) and Beta versions for the commercial and management teams. \nSuccessfully designed a complex REST API exposing data resulting from live and advanced processing of sales data coming from the pharmacists ERP. \nAccomplished a big and robust refactoring of all systems to a service-oriented architecture in 2015. \nProducts built during those years allowed the company to raise 7M€.",
+      "summary": "Successfully developed and launched several services and the main purchasing platform for 750 French pharmacies. \nContinuously delivered proof of concepts and beta versions of new product ideas for the commercial and management teams. \nDesigned a complex REST API exposing data resulting from live and advanced processing of sales data coming from the pharmacy ERPs. \nAccomplished a robust refactoring of all systems to a Service Oriented Architecture in 2015. \nProducts built during those years allowed the company to raise 7M€.",
       "highlights": [
-        "Startup Environment and Agility",
+        "Startup environment and agility",
         "Management and coaching of 9 frontend and backend developers",
         "Advanced pharmaceutical sales data analysis",
-        "Multiple projects management",
         "7M€ fund raising"
       ]
     },
@@ -75,27 +69,24 @@
       "website": null,
       "startDate": "2008-09-01",
       "endDate": "2013-09-01",
-      "summary": "Managed my own company during five years (including two with an associate). Promoted, enlarged, reinforced and monetized my skills in web development and graphic design on behalf of various companies (including Apodis Pharma which became my employer) and public administrations.",
+      "summary": "Managed my own company for five years. \nPromoted, reinforced and monetized my skills in web development and graphic design for a large spectrum of customers (including Apodis Pharma which became my next employer) and public administrations.",
       "highlights": [
-        "Started as a Freelance",
+        "Started as a freelancer",
         "Commercial and technical relations with customers",
-        "Quotations",
-        "Countability",
-        "Commitment",
-        "Self-enhancement",
-        "Continuous learning"
+        "Quotations and accounting",
+        "Commitment and self-enhancement"
       ]
     },
     {
       "company": "François Rabelais University and Notre-Dame-La-Riche Institute 🏫",
-      "position": "Teacher",
+      "position": "Lecturer",
       "website": null,
       "startDate": "2012-09-01",
       "endDate": "2015-09-01",
-      "summary": "Teacher in graphic design and web technologies for the University and for the private school Notre-Dame-La-Riche (~500h per year).",
+      "summary": "Taught graphic design and web technologies for a university and a private college (~500h per year).",
       "highlights": [
         "Pedagogy",
-        "knowledge transmission"
+        "Knowledge transmission"
       ]
     },
     {
@@ -104,10 +95,9 @@
       "website": null,
       "startDate": "2004-03-01",
       "endDate": "2008-09-01",
-      "summary": "Involved in many of the administrative and communication-related processes inside the theater, from fine analysis of audience until mass-mailing, including comedians welcoming, openers hiring and ticketing systems management",
+      "summary": "Actively involved in many of the administrative and public relation processes in the theatre, including data analysis of audience, mass-mailing to prospects and customers, catering, hiring staff and managing the ticketing system.",
       "highlights": [
-        "Versatility",
-        "Adaptability",
+        "Versatility and adaptability",
         "DIY and low-cost solutions",
         "Culture"
       ]
@@ -122,46 +112,54 @@
       "endDate": "2018-12-31",
       "summary": "Local and national associative involvement",
       "highlights": [
-        "Management of local community",
-        "Management of a national association with ~15000 members",
+        "Leading of a local group",
+        "Management of a national association with ~15,000 members",
         "Philosophical research, personal development"
       ]
     },
     {
       "organization": "Les Petites Sœurs des Pauvres",
-      "position": "Help for Christmas Eve",
+      "position": "Community support for Christmas Eve",
       "url": "https://petitessoeursdespauvres.org",
       "startDate": "2012-12-24",
       "endDate": "2012-12-25",
-      "summary": "Helping those in need for Christmas",
-      "highlights": [
-        "Caring about socially-isolated people",
-        "Spending a Christmas dinner with them"
-      ]
+      "summary": "Helping isolated and vulnerable people by socializing and spending time with them for Christmas dinner.",
+      "highlights": []
     }
   ],
   "education": [
     {
+      "institution": "Agile Dad",
+      "area": "",
+      "studyType": "Certified Scrum Master",
+      "startDate": "2022-01-15",
+      "endDate": "2022-01-16",
+      "gpa": null,
+      "courses": [
+        "Certified Scrum Master"
+      ]
+    },
+    {
       "institution": "SensioLabs",
       "area": "World",
-      "studyType": "Conference",
+      "studyType": "SymfonyWorld Online 2021 Winter Edition",
       "startDate": "2021-12-09",
       "endDate": "2021-12-10",
       "gpa": null,
       "courses": [
-        "SymfonyWorld Online 2021 Winter Edition"
+        "Conference"
       ]
     },
     {
       "institution": "DotGo",
       "area": "Paris",
-      "studyType": "Conferences and Workshop",
+      "studyType": "DotGo Conferences",
       "startDate": "2017-11-06",
       "endDate": "2017-11-07",
       "gpa": null,
       "courses": [
-        "DotGo Conferences",
-        "One-day workshop with William Kennedy (Managing partner at Ardan Labs)"
+        "Conference",
+        "Workshop with William Kennedy (Managing partner at Ardan Labs)"
       ]
     },
     {
@@ -190,8 +188,8 @@
     },
     {
       "institution": "SensioLabs",
-      "area": "World",
-      "studyType": "Conferences",
+      "area": "",
+      "studyType": "Symfony Conferences",
       "startDate": "2015-01-01",
       "endDate": "2016-12-31",
       "gpa": null,
@@ -218,30 +216,33 @@
   "skills": [
     {
       "name": "Web development",
-      "level": "Master 🎖️",
+      "level": "Master - Senior 🎖️",
       "keywords": [
         "PHP",
+        "Symfony",
         "Javascript",
+        "React",
         "Go",
         "HTML5",
         "CSS3",
         "Sass"
-      ]
+      ] 
     },
     {
       "name": "Testing",
-      "level": "Advanced Aficionados 🌵",
+      "level": "Advanced - Aficionado 🌵",
       "keywords": [
         "PHPUnit",
         "Behat",
         "Blackfire",
+        "Mocha",
         "TDD",
         "BDD"
       ]
     },
     {
       "name": "Best Practices",
-      "level": "Advanced Guard 💂",
+      "level": "Advanced - Guard 💂",
       "keywords": [
         "SOLID",
         "KISS",
@@ -250,7 +251,7 @@
     },
     {
       "name": "REST",
-      "level": "Master Evangelist ⛪",
+      "level": "Master - Evangelist ⛪",
       "keywords": [
         "API",
         "JSON",
@@ -260,33 +261,18 @@
       ]
     },
     {
-      "name": "Symfony",
-      "level": "Master Ninja 🥋",
-      "keywords": [
-        "PHP",
-        "Framework"
-      ]
-    },
-    {
-      "name": "ReactJS",
-      "level": "Beginner Junior 🐥",
-      "keywords": [
-        "Javascript",
-        "Framework"
-      ]
-    },
-    {
       "name": "CI/CD",
-      "level": "Advanced Lover ❤️",
+      "level": "Advanced - Lover ❤️",
       "keywords": [
         "Gitlab",
         "Travis",
-        "Scrutinizer"
+        "Automation",
+        "Feature flags"
       ]
     },
     {
       "name": "Database",
-      "level": "Advanced Consumer 🥞",
+      "level": "Advanced - Consumer 🥞",
       "keywords": [
         "MySQL",
         "MariaDB",
@@ -298,7 +284,7 @@
     },
     {
       "name": "Containers",
-      "level": "Intermediate Enthusiast 🎉",
+      "level": "Intermediate - Enthusiast 🎉",
       "keywords": [
         "docker",
         "compose"
@@ -306,7 +292,7 @@
     },
     {
       "name": "Tooling",
-      "level": "Advanced Addict 🦄",
+      "level": "Advanced - Addict 🦄",
       "keywords": [
         "Git",
         "Composer",
@@ -321,15 +307,35 @@
     },
     {
       "name": "OS",
-      "level": "Advanced Power-User 💪",
+      "level": "Advanced - Power-User 💪",
       "keywords": [
         "Mac OS X",
         "Linux (Debian / CentOS / Ubuntu)"
       ]
     },
     {
+      "name": "Web server administration",
+      "level": "Advanced - Admin 👷‍♂️",
+      "keywords": [
+        "Ansible provisioning",
+        "Nginx / Apache",
+        "PHP-FPM"
+      ]
+    },
+    {
+      "name": "Project Management",
+      "level": "Advanced - Admin 👷‍♂️",
+      "keywords": [
+        "Agile",
+        "DDD",
+        "Scrum",
+        "Jira",
+        "Confluence"
+      ]
+    },
+    {
       "name": "Graphic Design",
-      "level": "Advanced Veteran 🧓",
+      "level": "Advanced - Veteran 🧓",
       "keywords": [
         "Photoshop",
         "Illustrator",
@@ -348,7 +354,7 @@
     },
     {
       "language": "German 🇩🇪",
-      "fluency": "Basic understanding"
+      "fluency": "Beginner"
     }
   ],
   "interests": [
