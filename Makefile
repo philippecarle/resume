@@ -18,7 +18,7 @@ run: ## Run the web app
 	$(NPM) run serve -- --theme=$(THEME)
 
 html: ## Build html file
-	$(NPM) run export -- public/index.html --theme=$(THEME)
+	$(NPM) run export -- index.html --theme=$(THEME)
 
-pdf: ## Build pdf file
-	$(NPM) run export -- public/resume.pdf --theme=$(THEME)
+pdf: ## Build pdf files
+	$(NPM) run export -- resume.pdf --theme=$(THEME)
