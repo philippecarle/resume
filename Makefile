@@ -12,6 +12,10 @@ init: ## Build image and install npm dependencies
 	docker compose up --build --force-recreate  --remove-orphans
 	$(NPM) i $(PACKAGE)
 
+format: ## Format code
+	docker run -v `pwd`:`pwd` -w `pwd` python:3.9.10-alpine python -m json.tool resume.json > resume_pretty.json
+	mv -f resume_pretty.json resume.json
+
 test: ## Run tests
 	$(NPM) test
 
