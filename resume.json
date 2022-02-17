@@ -211,8 +211,14 @@
       ]
     }
   ],
-  "awards": [],
-  "publications": [],
+  "certificates": [
+    {
+      "name": "Certified ScrumMaster® (CSM®)",
+      "date": "2022-02-16",
+      "issuer": "Scrum Alliance",
+      "url": "https://bcert.me/smcrpglft"
+    }
+  ],
   "skills": [
     {
       "name": "Web development",
