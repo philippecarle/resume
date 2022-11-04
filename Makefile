@@ -2,7 +2,9 @@
 
 .PHONY: help
 
-NPM=docker compose run --service-ports node npm
+NODE=docker compose run --service-ports node
+NPM=$(NODE) npm
+YARN=$(NODE) yarn
 THEME ?= stackoverflow
 
 help: ## Display help
@@ -10,17 +12,20 @@ help: ## Display help
 
 init: ## Build image and install npm dependencies
 	docker compose up --build --force-recreate  --remove-orphans
-	$(NPM) i $(PACKAGE)
+	$(YARN) i
+
+add: ## Build image and install npm dependencies
+	$(YARN) add $(PACKAGE)
 
 format: ## Format code
 	docker run -v `pwd`:`pwd` -w `pwd` python:3.9.10-alpine python -m json.tool resume.json > resume_pretty.json
 	mv -f resume_pretty.json resume.json
 
 test: ## Run tests
-	$(NPM) test
+	$(YARN) test
 
 watch: ## Run the web app
-	$(NPM) run serve -- --theme=$(THEME)
+	$(YARN) run serve -- --theme=$(THEME)
 
 build: ## Build html file
-	$(NPM) run export -- index.html --theme=$(THEME)
+	$(YARN) run export -- index.html --theme=$(THEME)
