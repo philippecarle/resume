@@ -205,6 +205,18 @@
             ]
         },
         {
+            "name": "Database",
+            "level": "\uD83E\uDD5E Consumer",
+            "keywords": [
+                "MySQL",
+                "MariaDB",
+                "SQL Server",
+                "ElasticSearch",
+                "MongoDB",
+                "Redis"
+            ]
+        },
+        {
             "name": "Testing",
             "level": "\uD83C\uDF35 Aficionado",
             "keywords": [
@@ -233,18 +245,6 @@
                 "Continuous Delivery",
                 "Feature flags",
                 "Docker"
-            ]
-        },
-        {
-            "name": "Database",
-            "level": "\uD83E\uDD5E Consumer",
-            "keywords": [
-                "MySQL",
-                "MariaDB",
-                "SQL Server",
-                "ElasticSearch",
-                "MongoDB",
-                "Redis"
             ]
         },
         {
