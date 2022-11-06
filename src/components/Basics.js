@@ -22,7 +22,7 @@ const Basics = ({
             <Row id={'main-title'} className={'pt-5 pb-3'}>
                 <Col md={8}>
                     <h1>{name}</h1>
-                    <h2>{label}</h2>
+                    <h3>{label}</h3>
                 </Col>
                 <Col md={2} className={'text-end'}>
                     <ul className={'list-unstyled d-grid gap-2 pt-4'}>

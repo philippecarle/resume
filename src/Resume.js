@@ -1,4 +1,4 @@
-import resume from './philippe_carle_resume.json';
+import resume from './resume.json';
 import {Col, Container, Row} from 'react-bootstrap';
 import Basics from './components/Basics'
 import Experience from "./components/Experience";

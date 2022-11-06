@@ -1,15 +1,16 @@
 import Skill from "./Skill";
 import {Col, Row} from "react-bootstrap";
 import Separator from "./Separator";
+import React from 'react';
 
 const Skills = function ({skills}) {
     const half = Math.ceil(skills.length / 2);
 
     const skillRenderer = (skill, index, array) => (
-        <>
-            <Skill skill={skill} key={skill.name}/>
+        <div key={skill.name}>
+            <Skill skill={skill}/>
             <Separator index={index} array={array} span={6} offset={6}/>
-        </>
+        </div>
     );
 
     return (
