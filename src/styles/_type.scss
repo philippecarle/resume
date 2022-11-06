@@ -1,0 +1,28 @@
+@use "~@fontsource/barlow/scss/mixins" as Barlow;
+
+@include Barlow.fontFace($weight: 200);
+@include Barlow.fontFace($weight: 400);
+@include Barlow.fontFace($weight: 600);
+@include Barlow.fontFace($weight: 800);
+
+.text-prewrap {
+  white-space: pre-wrap;
+}
+
+h2.section-title {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+a {
+  text-decoration-style: dotted;
+}
+
+hr {
+  border-top: 1px dotted $black !important;
+}
+
+ul.list-condensed {
+  font-size: 1em;
+  line-height: 1.4em;
+}

@@ -1,27 +1,45 @@
 {
   "name": "philippe-carle-resume",
-  "version": "1.0.0",
-  "description": "Philippe Carle Resume",
-  "main": "index.js",
-  "scripts": {
-    "test": "resume validate",
-    "serve": "resume serve",
-    "export": "resume export",
-    "help": "resume export --help"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/philippecarle/philippecarle.github.io.git"
-  },
-  "author": "Philippe Carle",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/philippecarle/philippecarle.github.io/issues"
-  },
-  "homepage": "https://github.com/philippecarle/philippecarle.github.io#readme",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "jsonresume-theme-stackoverflow": "^1.4.0",
-    "puppeteer": "^13.1.2",
-    "resume-cli": "^3.0.5"
+    "@fontsource/barlow": "^4.5.9",
+    "@popperjs/core": "^2.11.6",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.2.2",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.3",
+    "react-scripts": "5.0.1",
+    "sass": "^1.56.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

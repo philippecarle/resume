@@ -1,0 +1,14 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+.dark {
+
+  $enable-gradients: true;
+  $body-color: #eeeeee;
+  $body-bg: #000;
+
+  --#{$variable-prefix}body-color: #eee;
+  --#{$variable-prefix}body-bg: #000;
+}
+
