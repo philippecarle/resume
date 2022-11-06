@@ -22,6 +22,7 @@ format: ## Format code
 	mv -f resume_pretty.json resume.json
 
 test: ## Run tests
+	$(YARN) validate
 	$(YARN) test
 
 start: ## Run the web app
