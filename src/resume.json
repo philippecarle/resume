@@ -7,13 +7,13 @@
         "email": "c@rlephilip.pe",
         "phone": "+1 647 333 7661",
         "website": "https://ca.rlephilip.pe",
-        "summary": "I have been developing advanced Web Apps and APIs in PHP and Javascript for over a decade, mainly using the Symfony framework. In order to maintain a high level of quality and maintainability, I have been collaborating regularly with senior consultants and developers from SensioLabs (the creators of Symfony) and with some of their close business partners.\nI have been working as a freelancer, as well as in a successful startup and now in an international industrial group.\nI always advocate for best practices compliance while focusing on business' needs and features-delivery expectations.\nI have a significant experience with frontend tooling (webpack, npm, yarn, sass, less...) and am familiar with ReactJS.\nIn my current position, I am in charge of the CI/CD process as well as the provisioning of Linux web servers. Our global infrastructure was audited by a devops company in Paris and our CI/CD process was rated as excellent.\nI am also very interested by the Go language and I have been leveraging it in some personal projects.\n\n This resume is maintained using the JSON Resume initiative for JSON-based standard for resumes. The Github repository with the JSON file and the code to generate the resume can be found  on github.com/philippecarle/resume. \n\nI am originally from France and emigrated to Canada at the end of 2018. I am a Permanent Resident.",
+        "summary": "I have been developing advanced Web Apps and APIs in **PHP**, **Javascript** and **Go** for over a decade. I have been working as a freelancer, in a successful startup and now in an international industrial group. As a Tech Lead, my goal is to maintain a high level of quality and maintainability and to help my team grow while focusing on business' needs and features-delivery expectations. This resume is maintained using the JSON Resume initiative for JSON-based standard for resumes ([Github Repository](github.com/philippecarle/resume)). I am originally from France and emigrated to Canada at the end of 2018. I am a Permanent Resident.",
         "location": {
-            "address": "104 41st Ave SW",
-            "postalCode": "T2S 0Z2",
+            "address": "2131 16 St SW",
+            "postalCode": "T2T 4E5",
             "city": "Calgary",
             "countryCode": "CA",
-            "region": "Alberta"
+            "region": "AB"
         },
         "profiles": [
             {
@@ -35,8 +35,8 @@
     },
     "work": [
         {
-            "company": "TLD Europe / TLD Canada \ud83d\udeeb",
-            "position": "Lead Developer and Dev Team Manager (remote position)",
+            "company": "TLD Europe / TLD Canada",
+            "position": "Tech Lead & Team Manager",
             "website": "https://www.tld-group.com",
             "startDate": "2016-06-20",
             "summary": "Managing the development of web applications as well as EDI (Electronic Data Interchange) and ERP (Enterprise Resource Planning) interactions in a very challenging industrial environment for TLD Group, world leader of Ground Support Equipment. \n\nActively supporting progressive migration of all the legacy codebase (~800K LOC of old procedural PHP4/5 code) to the Symfony framework and to PHP7 & 8, while still delivering new features and bug fixes daily. \n\nResponsible for the web portals extensive rewriting during the ERP migration (TLD web apps rely heavily on the ERP, they are in fact an extension of the ERP's features). \n\nLeading an international team, actively involved in new developer interviews and technical tests, intensively contributing to the code review process, task prioritization, defining specifications and collaborating with external contractors.",
@@ -50,7 +50,7 @@
             ]
         },
         {
-            "company": "Apodis Pharma \ud83d\udc8a",
+            "company": "Apodis Pharma",
             "position": "Lead Developer",
             "website": "https://www.apodispharma.com",
             "startDate": "2014-09-01",
@@ -64,7 +64,7 @@
             ]
         },
         {
-            "company": "Itch \ud83c\udfa8",
+            "company": "Itch",
             "position": "Founder",
             "website": null,
             "startDate": "2008-09-01",
@@ -78,7 +78,7 @@
             ]
         },
         {
-            "company": "Fran\u00e7ois Rabelais University and Notre-Dame-La-Riche Institute \ud83c\udfeb",
+            "company": "François Rabelais University and Notre-Dame-La-Riche Institute",
             "position": "Lecturer",
             "website": null,
             "startDate": "2012-09-01",
@@ -90,7 +90,7 @@
             ]
         },
         {
-            "company": "Th\u00e9\u00e2tre Nouvel Olympia \ud83c\udfad",
+            "company": "Théâtre Nouvel Olympia",
             "position": "Public relations assistant",
             "website": null,
             "startDate": "2004-03-01",
@@ -106,7 +106,7 @@
     "volunteer": [
         {
             "organization": "GLAMF",
-            "position": "Local presidency, National Bureau and National Secretariat",
+            "position": "Local presidency, National Bureau and Secretariat",
             "url": "https://www.gl-amf.fr",
             "startDate": "2010-02-17",
             "endDate": "2018-12-31",
@@ -118,7 +118,7 @@
             ]
         },
         {
-            "organization": "Les Petites S\u0153urs des Pauvres",
+            "organization": "Les Petites Sœurs des Pauvres",
             "position": "Community support for Christmas Eve",
             "url": "https://petitessoeursdespauvres.org",
             "startDate": "2012-12-24",
@@ -129,28 +129,6 @@
     ],
     "education": [
         {
-            "institution": "Agile Dad",
-            "area": "",
-            "studyType": "Certified Scrum Master",
-            "startDate": "2022-01-15",
-            "endDate": "2022-01-16",
-            "gpa": null,
-            "courses": [
-                "Certified Scrum Master"
-            ]
-        },
-        {
-            "institution": "SensioLabs",
-            "area": "World",
-            "studyType": "SymfonyWorld Online 2021 Winter Edition",
-            "startDate": "2021-12-09",
-            "endDate": "2021-12-10",
-            "gpa": null,
-            "courses": [
-                "Conference"
-            ]
-        },
-        {
             "institution": "DotGo",
             "area": "Paris",
             "studyType": "DotGo Conferences",
@@ -158,20 +136,19 @@
             "endDate": "2017-11-07",
             "gpa": null,
             "courses": [
-                "Conference",
-                "Workshop with William Kennedy (Managing partner at Ardan Labs)"
+                "Workshop with William Kennedy from Ardan Labs"
             ]
         },
         {
             "institution": "Udemy",
             "area": "Online",
-            "studyType": "Golang, Learn how to code by Todd McLeod",
+            "studyType": "Golang, Learn how to code",
             "startDate": "2017-10-01",
             "endDate": "2017-10-25",
             "gpa": null,
             "courses": [
-                "Learn how to code by Todd McLeod",
-                "Certificate on https://ude.my/UC-AEL49E62"
+                "Full course by Todd McLeod",
+                "Certificate on [Udemy](https://ude.my/UC-AEL49E62)"
             ]
         },
         {
@@ -194,26 +171,17 @@
             "endDate": "2016-12-31",
             "gpa": null,
             "courses": [
+                "API Platform Conf 2022",
+                "SymfonyWorld Online 2021",
                 "SymfonyCon Berlin 2016",
                 "SymfonyLive San Francisco 2015",
                 "SymfonyCon Paris 2015"
-            ]
-        },
-        {
-            "institution": "SensioLabs",
-            "area": "Paris",
-            "studyType": "Professional training",
-            "startDate": "2014-09-01",
-            "endDate": "2014-09-05",
-            "gpa": null,
-            "courses": [
-                "Symfony"
             ]
         }
     ],
     "certificates": [
         {
-            "name": "Certified ScrumMaster\u00ae (CSM\u00ae)",
+            "name": "Certified ScrumMaster®",
             "date": "2022-02-16",
             "issuer": "Scrum Alliance",
             "url": "https://bcert.me/smcrpglft"
@@ -221,64 +189,55 @@
     ],
     "skills": [
         {
-            "name": "Web Development",
-            "level": "Master - Senior \ud83c\udf96\ufe0f",
+            "name": "Development",
+            "level": "\uD83C\uDF96️ Senior",
             "keywords": [
                 "PHP",
                 "Symfony",
+                "API Platform",
                 "Javascript",
                 "React",
                 "Go",
                 "HTML5",
                 "CSS3",
-                "Sass"
+                "Sass",
+                "Webpack"
             ]
         },
         {
             "name": "Testing",
-            "level": "Advanced - Aficionado \ud83c\udf35",
+            "level": "\uD83C\uDF35 Aficionado",
             "keywords": [
                 "PHPUnit",
                 "Behat",
                 "Blackfire",
-                "Mocha",
-                "TDD",
-                "BDD"
+                "Panther",
+                "Jest"
             ]
         },
         {
             "name": "Best Practices",
-            "level": "Advanced - Guard \ud83d\udc82",
+            "level": "\uD83D\uDC82 Guard",
             "keywords": [
                 "SOLID",
                 "KISS",
-                "Twelve-Factor App"
+                "Twelve-Factor App",
+                "TDD / BDD"
             ]
         },
         {
-            "name": "REST",
-            "level": "Master - Evangelist \u26ea",
+            "name": "Devops",
+            "level": "\u2764\ufe0f Lover",
             "keywords": [
-                "API",
-                "JSON",
-                "Richardson Maturity Model",
-                "Hypermedia",
-                "API-Platform"
-            ]
-        },
-        {
-            "name": "CI/CD",
-            "level": "Advanced - Lover \u2764\ufe0f",
-            "keywords": [
-                "Gitlab",
-                "Travis",
-                "Automation",
-                "Feature flags"
+                "Gitlab CI",
+                "Continuous Delivery",
+                "Feature flags",
+                "Docker"
             ]
         },
         {
             "name": "Database",
-            "level": "Advanced - Consumer \ud83e\udd5e",
+            "level": "\uD83E\uDD5E Consumer",
             "keywords": [
                 "MySQL",
                 "MariaDB",
@@ -289,50 +248,18 @@
             ]
         },
         {
-            "name": "Containers",
-            "level": "Advanced - Enthusiast \ud83c\udf89",
+            "name": "System",
+            "level": "\ud83d\udc77\u200d\u2642\ufe0f Admin",
             "keywords": [
-                "docker",
-                "compose"
-            ]
-        },
-        {
-            "name": "Tooling",
-            "level": "Advanced - Addict \ud83e\udd84",
-            "keywords": [
-                "Git",
-                "Composer",
-                "PHPStan",
-                "Rector",
-                "Webpack",
-                "Linters",
-                "NPM",
-                "Yarn",
-                "CMake"
-            ]
-        },
-        {
-            "name": "OS",
-            "level": "Advanced - Power-User \ud83d\udcaa",
-            "keywords": [
-                "Mac OS X",
-                "Linux (Debian / CentOS / Ubuntu)"
-            ]
-        },
-        {
-            "name": "System administration",
-            "level": "Intermediate - Admin \ud83d\udc77\u200d\u2642\ufe0f",
-            "keywords": [
-                "Ansible provisioning",
+                "Ansible",
                 "Nginx",
                 "Apache",
-                "PHP-FPM",
                 "HAProxy"
             ]
         },
         {
-            "name": "Project Management",
-            "level": "Advanced - Admin \ud83d\udc77\u200d\u2642\ufe0f",
+            "name": "Project",
+            "level": "\uD83C\uDFAC Director",
             "keywords": [
                 "Agile",
                 "DDD",
@@ -343,7 +270,7 @@
         },
         {
             "name": "Graphic Design",
-            "level": "Advanced - Veteran \ud83e\uddd3",
+            "level": "\uD83E\uDDD3 Veteran",
             "keywords": [
                 "Photoshop",
                 "Illustrator",
@@ -353,11 +280,11 @@
     ],
     "languages": [
         {
-            "language": "English \ud83c\udde8\ud83c\udde6\ud83c\uddfa\ud83c\uddf8",
+            "language": "English \ud83c\udde8\ud83c\udde6\uD83C\uDDEC\uD83C\uDDE7\ud83c\uddfa\ud83c\uddf8",
             "fluency": "Fluent"
         },
         {
-            "language": "French \ud83c\uddeb\ud83c\uddf7",
+            "language": "French \uD83C\uDDE8\uD83C\uDDE6\ud83c\uddeb\ud83c\uddf7",
             "fluency": "Native speaker"
         },
         {
@@ -366,25 +293,6 @@
         }
     ],
     "interests": [
-        {
-            "name": "Music \ud83d\udd0a",
-            "keywords": [
-                "Electronic",
-                "Experimental",
-                "Ambient",
-                "Modular Synths",
-                "Drummer"
-            ]
-        },
-        {
-            "name": "Burning Man \ud83d\udd25",
-            "keywords": [
-                "Festival",
-                "6 editions",
-                "Creative space",
-                "Social experiment"
-            ]
-        },
         {
             "name": "Travel \u2708\ufe0f",
             "keywords": [
@@ -402,11 +310,42 @@
                 "Croatia",
                 "South Africa"
             ]
+        },
+        {
+            "name": "Music \ud83d\udd0a",
+            "keywords": [
+                "Drummer",
+                "Modular Synths",
+                "Ableton Live",
+                "Electronic",
+                "Experimental",
+                "Ambient"
+            ]
+        },
+        {
+            "name": "Burning Man \ud83d\udd25",
+            "keywords": [
+                "Black Rock Desert",
+                "Nevada",
+                "Festival",
+                "6 editions",
+                "Creative space",
+                "Social experiment",
+                "Alberta Freezer Burn"
+            ]
         }
     ],
     "references": [
         {
-            "name": "Martin Degenne - TLD",
+            "name": "Gregory Gautry - IT Group Director at TLD",
+            "reference": "As IT Director, it is very interesting and efficient to work with Philippe. \nPhilippe is able to step back from the technical aspect of things and face the customers to collect their pains and their needs. Philippe is solution-oriented, trying to find the best compromise between the technical debt and the impact on the business.\nOn another side, Philippe is eager to bring continuous improvement on both technical and non-technical side of the job. For instance, we worked together on building templates to ease collection of functional requirements.\nHe is a very good point of contact for the team even if he is not their manager.\nHe voices topics no matter if they are good or bad so we can sit around the table and identify ways to improve or grab opportunities. He is very dedicated to make things work.\nAs an ex IT Tech person, I like to discuss design and technology with Philippe. He is very knowledgeable, with a DevOps approach of things: we build things to make them stable and smooth to operate and improve. He is used to cover functional specifications through, design, implementation, CI/CD, release management, communication... \nHe is constantly investing on improving his toolbox - for instance he recently attended to Scrum Master trainings to go deeper on that aspect of the job.\nIn short words, Philippe is a passionated and invested expert in web applications, with a very human approcach focusing on making things better, smoother and more sustainable."
+        },
+        {
+            "name": "Philippe Khill - former manager at TLD",
+            "reference": "I had the chance to work with Philippe Carle for a few months. I really appreciated his professionalism, his ability to listen and his kindness, which are essential qualities for a lead-developer. \nThe discussions I was able to have with Philippe were very enriching, technically and humanly speaking. I hope we will be able to work together again soon."
+        },
+        {
+            "name": "Martin Degenne - Fomer team member at TLD",
             "reference": "After working in his team for almost 2 years, I can say without a doubt that Philippe Carle is an excellent Lead Developer. \nDuring those two years, I spent at least an hour every week with him to follow my projects and find ways to deal with complex problems like optimization. He found time to teach me more about php and routing when I was struggling to understand parts of our technological stack and to listen to me when I had a different opinion about the best way to develop a solution. \nI know he was doing the same thing for everyone on the team but still never missed a meeting nor an important deadline despite the complicated and often tough environment. \nThe team grew stronger thanks to him and I will happily work with him in the future if the opportunity presents itself."
         }
     ]
