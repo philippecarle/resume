@@ -15,7 +15,7 @@ const Experience = ({experience: {company, position, summary, startDate, endDate
             </Col>
         </Row>
 
-        <ReactMarkdown>{summary}</ReactMarkdown>
+        <ReactMarkdown className={'text-justify'}>{summary}</ReactMarkdown>
         <ul className={'list-condensed highlights'}>
             {highlights.map((highlight) =>
                 <li key={highlight}>{highlight}</li>

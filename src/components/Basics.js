@@ -1,6 +1,7 @@
 import {Col, Row} from "react-bootstrap";
 import ReactMarkdown from 'react-markdown'
 import getTextClass from "../helpers/textAlignClass";
+import React from "react";
 
 const Basics = ({
                     languages,
@@ -19,7 +20,7 @@ const Basics = ({
     );
     return (
         <>
-            <Row id={'main-title'} className={'pt-5 pb-3'}>
+            <Row id={'main-title'} className={'pt-5'}>
                 <Col md={8}>
                     <h1>{name}</h1>
                     <h3>{label}</h3>
@@ -58,7 +59,7 @@ const Basics = ({
 
             <Row id='summary'>
                 <Col md={12}>
-                    <ReactMarkdown>{summary}</ReactMarkdown>
+                    <p className={'mb-0 text-justify'}><ReactMarkdown components={{p: React.Fragment}}>{summary}</ReactMarkdown></p>
                 </Col>
             </Row>
         </>

@@ -54,7 +54,7 @@ const Resume = () => (
                 </Col>
                 <Col md={4} className={'text-end'}>
                     {resume.certificates.length > 0 && <div id={'certificates'}>
-                        <h2 className={'section-title pb-3'}>Certificates</h2>
+                        <h2 className={'section-title pb-3'}>Certifications</h2>
                         {resume.certificates.map((certificate, index, array) =>
                             <div key={certificate.name}>
                                 <Certificate certificate={certificate}/>
