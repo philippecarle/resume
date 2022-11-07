@@ -25,14 +25,14 @@ const Basics = ({
                     <h1>{name}</h1>
                     <h3>{label}</h3>
                 </Col>
-                <Col md={2} className={'text-end'}>
+                <Col md={2} className={'text-lg-end text-start'}>
                     <ul className={'list-unstyled d-grid gap-2 pt-4'}>
                         <li>{address}</li>
                         <li>{city} {region} {postalCode}</li>
                         <li>{regionNames.of(countryCode)}</li>
                     </ul>
                 </Col>
-                <Col md={2} className={'text-end'}>
+                <Col md={2} className={'text-lg-end text-start'}>
                     <ul className={'list-unstyled d-grid gap-2 pt-4'}>
                         <li><a href={`tel: ${phone}`}>{phone}</a></li>
                         <li><a href={`mailto: ${email}`}>{email}</a></li>

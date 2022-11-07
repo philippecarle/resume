@@ -8,6 +8,7 @@ import Separator from "./components/Separator";
 import Certificate from "./components/Certificate";
 import Interest from "./components/Interest";
 import Reference from "./components/Reference";
+import React from "react";
 
 const Resume = () => (
     <Container className={'dark'}>
@@ -17,9 +18,9 @@ const Resume = () => (
         <hr/>
         <main>
             <Row>
-                <Col md={8}>
+                <Col lg={8}>
+                    <h2 className={'section-title pb-3'}>Experience</h2>
                     {resume.work.length > 0 && <div id={'experience'}>
-                        <h2 className={'section-title pb-3'}>Experience</h2>
                         {resume.work.map((experience, index, array) =>
                             <div key={experience.company}>
                                 <Experience experience={experience}/>
@@ -27,7 +28,11 @@ const Resume = () => (
                             </div>
                         )}
                     </div>}
-
+                </Col>
+                <Skills skills={resume.skills}/>
+            </Row>
+            <Row>
+                <Col md={8}>
                     {resume.interests.length > 0 && <div id={'interests'}>
                         <h2 className={'section-title pb-3'}>Interests</h2>
                         <Row>
@@ -51,6 +56,15 @@ const Resume = () => (
                             )}
                         </Row>
                     </div>}
+
+                    {resume.references.length > 0 && <div id={'references'}>
+                        <h2 className={'section-title pb-3'}>References</h2>
+                        {resume.references.map((reference) =>
+                            <div key={reference.name} className={'py-2'}>
+                                <Reference reference={reference}/>
+                            </div>
+                        )}
+                    </div>}
                 </Col>
                 <Col md={4} className={'text-end'}>
                     {resume.certificates.length > 0 && <div id={'certificates'}>
@@ -61,12 +75,6 @@ const Resume = () => (
                                 <Separator index={index} array={array} offset={6}/>
                             </div>
                         )}
-                        <Separator/>
-                    </div>}
-
-                    {resume.skills.length > 0 && <div id={'skills'}>
-                        <h2 className={'section-title pb-3'}>Skills</h2>
-                        <Skills skills={resume.skills}/>
                         <Separator/>
                     </div>}
 
@@ -81,16 +89,6 @@ const Resume = () => (
                     </div>}
                 </Col>
                 <Separator/>
-                <Col>
-                    {resume.references.length > 0 && <div id={'references'}>
-                        <h2 className={'section-title pb-3'}>References</h2>
-                        {resume.references.map((reference) =>
-                            <div key={reference.name} className={'py-2'}>
-                                <Reference reference={reference}/>
-                            </div>
-                        )}
-                    </div>}
-                </Col>
             </Row>
         </main>
     </Container>

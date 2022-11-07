@@ -1,16 +1,3 @@
-@import 'styles/main';
-@import 'styles/type';
-@import 'styles/variables';
-@import 'styles/basics';
-@import 'styles/experience';
-@import 'styles/interests';
-@import 'styles/skills';
-@import 'styles/education';
-@import 'styles/references';
-@import 'styles/print';
-
-
-// scss-docs-start import-stack
 // Configuration
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
@@ -32,4 +19,14 @@
 
 // Utilities
 @import "~bootstrap/scss/utilities/api";
-// scss-docs-end import-stack
+
+@import 'styles/main';
+@import 'styles/type';
+@import 'styles/variables';
+@import 'styles/basics';
+@import 'styles/experience';
+@import 'styles/interests';
+@import 'styles/skills';
+@import 'styles/education';
+@import 'styles/references';
+@import 'styles/print';
