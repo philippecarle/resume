@@ -1,6 +1,8 @@
+
 // Configuration
 @import "~bootstrap/scss/functions";
 @import "~bootstrap/scss/variables";
+@import 'styles/variables';
 @import "~bootstrap/scss/maps";
 @import "~bootstrap/scss/mixins";
 @import "~bootstrap/scss/utilities";
@@ -22,7 +24,6 @@
 
 @import 'styles/main';
 @import 'styles/type';
-@import 'styles/variables';
 @import 'styles/basics';
 @import 'styles/experience';
 @import 'styles/interests';

@@ -18,7 +18,7 @@ const Resume = () => (
         <hr/>
         <main>
             <Row>
-                <Col lg={8}>
+                <Col md={8}>
                     <h2 className={'section-title pb-3'}>Experience</h2>
                     {resume.work.length > 0 && <div id={'experience'}>
                         {resume.work.map((experience, index, array) =>
