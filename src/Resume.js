@@ -18,7 +18,7 @@ const Resume = () => (
         <hr/>
         <main>
             <Row>
-                <Col md={8}>
+                <Col lg={8}>
                     <h2 className={'section-title pb-3'}>Experience</h2>
                     {resume.work.length > 0 && <div id={'experience'}>
                         {resume.work.map((experience, index, array) =>
@@ -29,7 +29,20 @@ const Resume = () => (
                         )}
                     </div>}
                 </Col>
-                <Skills skills={resume.skills}/>
+                <Col lg={4} className={'text-lg-end text-start'}>
+                    {resume.certificates.length > 0 && <div id={'certificates'}>
+                        <h2 className={'section-title pb-3'}>Certifications</h2>
+                        {resume.certificates.map((certificate, index, array) =>
+                            <div key={certificate.name}>
+                                <Certificate certificate={certificate}/>
+                                <Separator index={index} array={array} offset={6}/>
+                            </div>
+                        )}
+                    </div>}
+
+                    <Skills skills={resume.skills}/>
+                </Col>
+                <Separator/>
             </Row>
             <Row>
                 <Col md={8}>
@@ -56,28 +69,8 @@ const Resume = () => (
                             )}
                         </Row>
                     </div>}
-
-                    {resume.references.length > 0 && <div id={'references'}>
-                        <h2 className={'section-title pb-3'}>References</h2>
-                        {resume.references.map((reference) =>
-                            <div key={reference.name} className={'py-2'}>
-                                <Reference reference={reference}/>
-                            </div>
-                        )}
-                    </div>}
                 </Col>
                 <Col md={4} className={'text-end'}>
-                    {resume.certificates.length > 0 && <div id={'certificates'}>
-                        <h2 className={'section-title pb-3'}>Certifications</h2>
-                        {resume.certificates.map((certificate, index, array) =>
-                            <div key={certificate.name}>
-                                <Certificate certificate={certificate}/>
-                                <Separator index={index} array={array} offset={6}/>
-                            </div>
-                        )}
-                        <Separator/>
-                    </div>}
-
                     {resume.education.length > 0 && <div id={'education'}>
                         <h2 className={'section-title pb-3'}>Education</h2>
                         {resume.education.map((education, index, array) =>
@@ -89,6 +82,18 @@ const Resume = () => (
                     </div>}
                 </Col>
                 <Separator/>
+            </Row>
+            <Row>
+                <Col>
+                    {resume.references.length > 0 && <div id={'references'}>
+                        <h2 className={'section-title pb-3'}>References</h2>
+                        {resume.references.map((reference) =>
+                            <div key={reference.name} className={'py-2'}>
+                                <Reference reference={reference}/>
+                            </div>
+                        )}
+                    </div>}
+                </Col>
             </Row>
         </main>
     </Container>

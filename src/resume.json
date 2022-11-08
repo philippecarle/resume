@@ -232,6 +232,7 @@
             "level": "\uD83D\uDC82 Guard",
             "keywords": [
                 "SOLID",
+                "DRY",
                 "KISS",
                 "Twelve-Factor App",
                 "TDD / BDD"
@@ -269,7 +270,7 @@
             ]
         },
         {
-            "name": "Graphic Design",
+            "name": "Design",
             "level": "\uD83E\uDDD3 Veteran",
             "keywords": [
                 "Photoshop",

@@ -3,7 +3,7 @@ import {Col, Row} from "react-bootstrap";
 import Period from "./Period";
 
 const Experience = ({experience: {company, position, summary, startDate, endDate, highlights}}) => (
-    <>
+    <div className={'experience'}>
         <Row>
             <Col xs={8}>
                 <h4 className={'pb-2'}>{position}<br/>
@@ -21,7 +21,7 @@ const Experience = ({experience: {company, position, summary, startDate, endDate
                 <li key={highlight}>{highlight}</li>
             )}
         </ul>
-    </>
+    </div>
 );
 
 export default Experience;
