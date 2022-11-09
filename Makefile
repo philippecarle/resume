@@ -15,7 +15,7 @@ init: ## Build image and install npm dependencies
 	docker compose build --remove-orphans
 	$(YARN) install --force
 
-yarn: ## Build execute CMD and ARGS
+yarn: ## Execute yarn with CMD and ARGS
 	$(YARN) $(CMD) $(ARGS)
 
 format: ## Format code
