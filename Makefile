@@ -35,5 +35,5 @@ build: ## Build static files and print to pdf
 	$(YARN) build
 	docker compose up -d nginx
 	$(PRINTER) touch /usr/src/app/workspace/resume/resume.pdf
-	$(PRINTER) google-chrome --no-sandbox --headless --disable-gpu --run-all-compositor-stages-before-draw --print-to-pdf-no-header --print-to-pdf=/usr/src/app/workspace/resume/resume.pdf http://nginx
+	$(PRINTER) google-chrome --no-sandbox --headless --disable-gpu --run-all-compositor-stages-before-draw --print-to-pdf-no-header --print-to-pdf=/usr/src/app/workspace/resume/resume.pdf --virtual-time-budget=20000 http://nginx
 	docker compose down
