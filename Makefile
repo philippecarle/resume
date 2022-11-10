@@ -35,6 +35,3 @@ build: ## Build static files and print to pdf
 	$(PRINTER) touch /usr/src/app/workspace/resume/resume.pdf
 	$(PRINTER) google-chrome --no-sandbox --headless --disable-gpu --run-all-compositor-stages-before-draw --print-to-pdf-no-header --print-to-pdf=/usr/src/app/workspace/resume/resume.pdf http://nginx
 	docker compose down
-
-debug:
-	$(PRINTER) google-chrome --no-sandbox --headless /usr/src/app/workspace/resume/index.html

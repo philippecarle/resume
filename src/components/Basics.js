@@ -2,6 +2,7 @@ import {Col, Row} from "react-bootstrap";
 import ReactMarkdown from 'react-markdown'
 import getTextClass from "../helpers/textAlignClass";
 import React from "react";
+import Separator from "./Separator";
 
 const Basics = ({
                     languages,
@@ -40,7 +41,7 @@ const Basics = ({
                     </ul>
                 </Col>
             </Row>
-            <hr/>
+            <Separator/>
 
             {(languages.length > 0) && <>
                 <Row id='languages'>

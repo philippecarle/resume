@@ -1,6 +1,6 @@
 import Moment from "moment";
 
-const Skill = ({certificate: {name, date, issuer, url}}) => (
+const Certificate = ({certificate: {name, date, issuer, url}}) => (
     <div className={'mb-3'}>
         <h4 className={'pb-2'}>
             {name}<br/>
@@ -10,4 +10,4 @@ const Skill = ({certificate: {name, date, issuer, url}}) => (
     </div>
 );
 
-export default Skill;
+export default Certificate;
