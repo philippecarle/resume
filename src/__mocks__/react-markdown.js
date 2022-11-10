@@ -1,5 +1,5 @@
-function ReactMarkdown({ children }){
-    return <>{children}</>;
+function ReactMarkdown({ children }) {
+	return <>{children}</>;
 }
 
 export default ReactMarkdown;

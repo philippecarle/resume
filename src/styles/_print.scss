@@ -1,19 +1,32 @@
-@import "~bootstrap-print-css/css/bootstrap-print.min.css";
+@import '~bootstrap-print-css/css/bootstrap-print.min.css';
 
 @media print {
-  body {
-    font-size: 0.7rem !important;
-  }
-  h1 {font-size: 3.4rem !important;}
-  h2 {font-size: 2.2rem !important;}
-  h3 {font-size: 1.7rem !important;}
-  h4 {
-    font-size: 1.2rem !important;
-    small {
-      font-size: 0.7em !important;
-    }
-  }
-  h5 {font-size: 1.1rem !important;}
-  h6 {font-size: 1rem !important;}
-  blockquote, pre {border: none !important;}
+	body {
+		font-size: 0.7rem !important;
+	}
+	h1 {
+		font-size: 3.4rem !important;
+	}
+	h2 {
+		font-size: 2.2rem !important;
+	}
+	h3 {
+		font-size: 1.7rem !important;
+	}
+	h4 {
+		font-size: 1.2rem !important;
+		small {
+			font-size: 0.7em !important;
+		}
+	}
+	h5 {
+		font-size: 1.1rem !important;
+	}
+	h6 {
+		font-size: 1rem !important;
+	}
+	blockquote,
+	pre {
+		border: none !important;
+	}
 }

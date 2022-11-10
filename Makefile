@@ -1,9 +1,10 @@
 # See https://gazr.io
 
-.PHONY: help init build
+.PHONY: help init yarn format test run build
 
 RESUME=docker compose run --service-ports resume
 PRINTER=docker compose run --service-ports printer
+PYTHON=docker compose run python python
 NPM=$(RESUME) npm
 YARN=$(RESUME) yarn
 THEME ?= actual
@@ -19,8 +20,9 @@ yarn: ## Execute yarn with CMD and ARGS
 	$(YARN) $(CMD) $(ARGS)
 
 format: ## Format code
-	docker run -v `pwd`:`pwd` -w `pwd` python:3.9.10-alpine python -m json.tool resume.json > resume_pretty.json
-	mv -f resume_pretty.json resume.json
+	$(PYTHON) -m json.tool src/resume.json > resume_pretty.json
+	mv -f resume_pretty.json src/resume.json
+	$(YARN) format
 
 test: ## Run tests
 	$(YARN) validate
