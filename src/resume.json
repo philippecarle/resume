@@ -1,321 +1,321 @@
 {
-	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
-	"basics": {
-		"name": "Philippe CARLE",
-		"label": "Tech Lead",
-		"picture": "https://en.gravatar.com/userimage/108274017/0198e8f42d928bc6c72fe29defb2cc4b.jpg?size=500",
-		"email": "c@rlephilip.pe",
-		"phone": "+1 647 333 7661",
-		"website": "https://ca.rlephilip.pe",
-		"summary": "I have been developing advanced Web Apps and APIs in **PHP**, **Javascript** and **Go** for over a decade. I have been working as a freelancer, in a successful startup and now in an international industrial group. As a Tech Lead, my goal is to maintain a high level of quality and maintainability and to help my team grow while focusing on business' needs and features-delivery expectations. This resume is maintained using the JSON Resume initiative for JSON-based standard for resumes ([Github Repository](https://github.com/philippecarle/resume)). I am originally from France and emigrated to Canada at the end of 2018. I am a Permanent Resident.",
-		"location": {
-			"address": "2131 16 St SW",
-			"postalCode": "T2T 4E5",
-			"city": "Calgary",
-			"countryCode": "CA",
-			"region": "AB"
-		},
-		"profiles": [
-			{
-				"network": "Github",
-				"username": "philippecarle",
-				"url": "https://github.com/philippecarle"
-			},
-			{
-				"network": "Linkedin",
-				"username": "philcarle",
-				"url": "https://www.linkedin.com/in/philcarle"
-			},
-			{
-				"network": "Stack Overflow",
-				"username": "philippecarle",
-				"url": "https://stackoverflow.com/cv/philippecarle"
-			}
-		]
-	},
-	"work": [
-		{
-			"company": "TLD Europe / TLD Canada",
-			"position": "Tech Lead & Team Manager",
-			"website": "https://www.tld-group.com",
-			"startDate": "2016-06-20",
-			"summary": "Managing the development of web applications as well as EDI (Electronic Data Interchange) and ERP (Enterprise Resource Planning) interactions in a very challenging industrial environment for TLD Group, world leader of Ground Support Equipment. \n\nActively supporting progressive migration of all the legacy codebase (~800K LOC of old procedural PHP4/5 code) to the Symfony framework and to PHP7 & 8, while still delivering new features and bug fixes daily. \n\nResponsible for the web portals extensive rewriting during the ERP migration (TLD web apps rely heavily on the ERP, they are in fact an extension of the ERP's features). \n\nLeading an international team, actively involved in new developer interviews and technical tests, intensively contributing to the code review process, task prioritization, defining specifications and collaborating with external contractors.",
-			"highlights": [
-				"Management of international projects",
-				"Testing, CI/CD, devops, best practices",
-				"Symfony encapsulation of a legacy system",
-				"Progressive migration of a large procedural codebase",
-				"ERP migration from Baan IV to Infor LN",
-				"Complex business analysis for a large and diverse manufacturing company"
-			]
-		},
-		{
-			"company": "Apodis Pharma",
-			"position": "Lead Developer",
-			"website": "https://www.apodispharma.com",
-			"startDate": "2014-09-01",
-			"endDate": "2013-06-20",
-			"summary": "Successfully developed and launched several services and the main purchasing platform for 750 French pharmacies. \n\nContinuously delivered proof of concepts and beta versions of new product ideas for the commercial and management teams. \n\nDesigned a complex REST API exposing data resulting from live and advanced processing of sales data coming from the pharmacy ERPs. \n\nAccomplished a robust refactoring of all systems to a Service Oriented Architecture in 2015. \n\nProducts built during those years allowed the company to raise 7M\u20ac.",
-			"highlights": [
-				"Startup environment and agility",
-				"Management and coaching of 9 frontend and backend developers",
-				"Advanced pharmaceutical sales data analysis",
-				"7M\u20ac fund raising"
-			]
-		},
-		{
-			"company": "Itch",
-			"position": "Founder",
-			"website": null,
-			"startDate": "2008-09-01",
-			"endDate": "2013-09-01",
-			"summary": "Managed my own company for five years. \nPromoted, reinforced and monetized my skills in web development and graphic design for a large spectrum of customers (including Apodis Pharma which became my next employer) and public administrations.",
-			"highlights": [
-				"Started as a freelancer",
-				"Commercial and technical relations with customers",
-				"Quotations and accounting",
-				"Commitment and self-enhancement"
-			]
-		},
-		{
-			"company": "Fran\u00e7ois Rabelais University and Notre-Dame-La-Riche Institute",
-			"position": "Lecturer",
-			"website": null,
-			"startDate": "2012-09-01",
-			"endDate": "2015-09-01",
-			"summary": "Taught graphic design and web technologies for a university and a private college (~500h per year).",
-			"highlights": ["Pedagogy", "Knowledge transmission"]
-		},
-		{
-			"company": "Th\u00e9\u00e2tre Nouvel Olympia",
-			"position": "Public relations assistant",
-			"website": null,
-			"startDate": "2004-03-01",
-			"endDate": "2008-09-01",
-			"summary": "Actively involved in many of the administrative and public relation processes in the theatre, including data analysis of audience, mass-mailing to prospects and customers, catering, hiring staff and managing the ticketing system.",
-			"highlights": [
-				"Versatility and adaptability",
-				"DIY and low-cost solutions",
-				"Culture"
-			]
-		}
-	],
-	"volunteer": [
-		{
-			"organization": "GLAMF",
-			"position": "Local presidency, National Bureau and Secretariat",
-			"url": "https://www.gl-amf.fr",
-			"startDate": "2010-02-17",
-			"endDate": "2018-12-31",
-			"summary": "Local and national associative involvement",
-			"highlights": [
-				"Leading of a local group",
-				"Management of a national association with ~15,000 members",
-				"Philosophical research, personal development"
-			]
-		},
-		{
-			"organization": "Les Petites S\u0153urs des Pauvres",
-			"position": "Community support for Christmas Eve",
-			"url": "https://petitessoeursdespauvres.org",
-			"startDate": "2012-12-24",
-			"endDate": "2012-12-25",
-			"summary": "Helping isolated and vulnerable people by socializing and spending time with them for Christmas dinner.",
-			"highlights": []
-		}
-	],
-	"education": [
-		{
-			"institution": "DotGo",
-			"area": "Paris",
-			"studyType": "DotGo Conferences",
-			"startDate": "2017-11-06",
-			"endDate": "2017-11-07",
-			"gpa": null,
-			"courses": ["Workshop with William Kennedy from Ardan Labs"]
-		},
-		{
-			"institution": "Udemy",
-			"area": "Online",
-			"studyType": "Golang, Learn how to code",
-			"startDate": "2017-10-01",
-			"endDate": "2017-10-25",
-			"gpa": null,
-			"courses": [
-				"Full course by Todd McLeod",
-				"Certificate on [Udemy](https://ude.my/UC-AEL49E62)"
-			]
-		},
-		{
-			"institution": "SensioLabs",
-			"area": "Paris",
-			"studyType": "Coaching",
-			"startDate": "2016-09-01",
-			"endDate": "2017-07-01",
-			"gpa": null,
-			"courses": [
-				"Coaching and reviews of TLD Developments",
-				"Best practices and advanced testing"
-			]
-		},
-		{
-			"institution": "SensioLabs",
-			"area": "",
-			"studyType": "Symfony Conferences",
-			"startDate": "2015-01-01",
-			"endDate": "2016-12-31",
-			"gpa": null,
-			"courses": [
-				"API Platform Conf 2022",
-				"SymfonyWorld Online 2021",
-				"SymfonyCon Berlin 2016",
-				"SymfonyLive San Francisco 2015",
-				"SymfonyCon Paris 2015"
-			]
-		}
-	],
-	"certificates": [
-		{
-			"name": "Certified ScrumMaster\u00ae",
-			"date": "2022-02-16",
-			"issuer": "Scrum Alliance",
-			"url": "https://bcert.me/smcrpglft"
-		}
-	],
-	"skills": [
-		{
-			"name": "Development",
-			"level": "\ud83c\udf96\ufe0f Senior",
-			"keywords": [
-				"PHP",
-				"Symfony",
-				"API Platform",
-				"Javascript",
-				"React",
-				"Go",
-				"HTML5",
-				"CSS3",
-				"Sass",
-				"Webpack"
-			]
-		},
-		{
-			"name": "Database",
-			"level": "\ud83e\udd5e Consumer",
-			"keywords": [
-				"MySQL",
-				"MariaDB",
-				"SQL Server",
-				"ElasticSearch",
-				"MongoDB",
-				"Redis"
-			]
-		},
-		{
-			"name": "Testing",
-			"level": "\ud83c\udf35 Aficionado",
-			"keywords": ["PHPUnit", "Behat", "Blackfire", "Panther", "Jest"]
-		},
-		{
-			"name": "Best Practices",
-			"level": "\ud83d\udc82 Guard",
-			"keywords": ["SOLID", "DRY", "KISS", "Twelve-Factor App", "TDD / BDD"]
-		},
-		{
-			"name": "Devops",
-			"level": "\u2764\ufe0f Lover",
-			"keywords": [
-				"Gitlab CI",
-				"Continuous Delivery",
-				"Feature flags",
-				"Docker"
-			]
-		},
-		{
-			"name": "System",
-			"level": "\ud83d\udc77\u200d\u2642\ufe0f Admin",
-			"keywords": ["Ansible", "Nginx", "Apache", "HAProxy"]
-		},
-		{
-			"name": "Project",
-			"level": "\ud83c\udfac Director",
-			"keywords": ["Agile", "DDD", "Scrum", "Jira", "Confluence"]
-		},
-		{
-			"name": "Design",
-			"level": "\ud83e\uddd3 Veteran",
-			"keywords": ["Photoshop", "Illustrator", "Indesign"]
-		}
-	],
-	"languages": [
-		{
-			"language": "English \ud83c\udde8\ud83c\udde6\ud83c\uddec\ud83c\udde7\ud83c\uddfa\ud83c\uddf8",
-			"fluency": "Fluent"
-		},
-		{
-			"language": "French \ud83c\udde8\ud83c\udde6\ud83c\uddeb\ud83c\uddf7",
-			"fluency": "Native speaker"
-		},
-		{
-			"language": "German \ud83c\udde9\ud83c\uddea",
-			"fluency": "Beginner"
-		}
-	],
-	"interests": [
-		{
-			"name": "Travel \u2708\ufe0f",
-			"keywords": [
-				"United States of America",
-				"California",
-				"Oregon",
-				"Nevada",
-				"Spain",
-				"Portugal",
-				"Scotland",
-				"Netherland",
-				"Germany",
-				"Denmark",
-				"Canada",
-				"Croatia",
-				"South Africa"
-			]
-		},
-		{
-			"name": "Music \ud83d\udd0a",
-			"keywords": [
-				"Drummer",
-				"Modular Synths",
-				"Ableton Live",
-				"Electronic",
-				"Experimental",
-				"Ambient"
-			]
-		},
-		{
-			"name": "Burning Man \ud83d\udd25",
-			"keywords": [
-				"Black Rock Desert",
-				"Nevada",
-				"Festival",
-				"6 editions",
-				"Creative space",
-				"Social experiment",
-				"Alberta Freezer Burn"
-			]
-		}
-	],
-	"references": [
-		{
-			"name": "Gregory Gautry - IT Group Director at TLD",
-			"reference": "As IT Director, it is very interesting and efficient to work with Philippe. \nPhilippe is able to step back from the technical aspect of things and face the customers to collect their pains and their needs. Philippe is solution-oriented, trying to find the best compromise between the technical debt and the impact on the business.\nOn another side, Philippe is eager to bring continuous improvement on both technical and non-technical side of the job. For instance, we worked together on building templates to ease collection of functional requirements.\nHe is a very good point of contact for the team even if he is not their manager.\nHe voices topics no matter if they are good or bad so we can sit around the table and identify ways to improve or grab opportunities. He is very dedicated to make things work.\nAs an ex IT Tech person, I like to discuss design and technology with Philippe. He is very knowledgeable, with a DevOps approach of things: we build things to make them stable and smooth to operate and improve. He is used to cover functional specifications through, design, implementation, CI/CD, release management, communication... \nHe is constantly investing on improving his toolbox - for instance he recently attended to Scrum Master trainings to go deeper on that aspect of the job.\nIn short words, Philippe is a passionated and invested expert in web applications, with a very human approcach focusing on making things better, smoother and more sustainable."
-		},
-		{
-			"name": "Philippe Khill - former manager at TLD",
-			"reference": "I had the chance to work with Philippe Carle for a few months. I really appreciated his professionalism, his ability to listen and his kindness, which are essential qualities for a lead-developer. \nThe discussions I was able to have with Philippe were very enriching, technically and humanly speaking. I hope we will be able to work together again soon."
-		},
-		{
-			"name": "Martin Degenne - Fomer team member at TLD",
-			"reference": "After working in his team for almost 2 years, I can say without a doubt that Philippe Carle is an excellent Lead Developer. \nDuring those two years, I spent at least an hour every week with him to follow my projects and find ways to deal with complex problems like optimization. He found time to teach me more about php and routing when I was struggling to understand parts of our technological stack and to listen to me when I had a different opinion about the best way to develop a solution. \nI know he was doing the same thing for everyone on the team but still never missed a meeting nor an important deadline despite the complicated and often tough environment. \nThe team grew stronger thanks to him and I will happily work with him in the future if the opportunity presents itself."
-		}
-	]
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
+  "basics": {
+    "name": "Philippe CARLE",
+    "label": "Tech Lead",
+    "picture": "https://en.gravatar.com/userimage/108274017/0198e8f42d928bc6c72fe29defb2cc4b.jpg?size=500",
+    "email": "c@rlephilip.pe",
+    "phone": "+1 647 333 7661",
+    "website": "https://ca.rlephilip.pe",
+    "summary": "I have been developing advanced Web Apps and APIs in **PHP**, **Javascript** and **Go** for over a decade. I have been working as a freelancer, in a successful startup and now in an international industrial group. As a Tech Lead, my goal is to maintain a high level of quality and maintainability and to help my team grow while focusing on business' needs and features-delivery expectations. This resume is maintained using the JSON Resume initiative for JSON-based standard for resumes ([Github Repository](https://github.com/philippecarle/resume)). I am originally from France and emigrated to Canada at the end of 2018. I am a Permanent Resident.",
+    "location": {
+      "address": "2131 16 St SW",
+      "postalCode": "T2T 4E5",
+      "city": "Calgary",
+      "countryCode": "CA",
+      "region": "AB"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "philippecarle",
+        "url": "https://github.com/philippecarle"
+      },
+      {
+        "network": "Linkedin",
+        "username": "philcarle",
+        "url": "https://www.linkedin.com/in/philcarle"
+      },
+      {
+        "network": "Stack Overflow",
+        "username": "philippecarle",
+        "url": "https://stackoverflow.com/cv/philippecarle"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "TLD Europe / TLD Canada",
+      "position": "Tech Lead & Team Manager",
+      "website": "https://www.tld-group.com",
+      "startDate": "2016-06-20",
+      "summary": "Managing the development of web applications as well as EDI (Electronic Data Interchange) and ERP (Enterprise Resource Planning) interactions in a very challenging industrial environment for TLD Group, world leader of Ground Support Equipment. \n\nActively supporting progressive migration of all the legacy codebase (~800K LOC of old procedural PHP4/5 code) to the Symfony framework and to PHP7 & 8, while still delivering new features and bug fixes daily. \n\nResponsible for the web portals extensive rewriting during the ERP migration (TLD web apps rely heavily on the ERP, they are in fact an extension of the ERP's features). \n\nLeading an international team, actively involved in new developer interviews and technical tests, intensively contributing to the code review process, task prioritization, defining specifications and collaborating with external contractors.",
+      "highlights": [
+        "Management of international projects",
+        "Testing, CI/CD, devops, best practices",
+        "Symfony encapsulation of a legacy system",
+        "Progressive migration of a large procedural codebase",
+        "ERP migration from Baan IV to Infor LN",
+        "Complex business analysis for a large and diverse manufacturing company"
+      ]
+    },
+    {
+      "company": "Apodis Pharma",
+      "position": "Lead Developer",
+      "website": "https://www.apodispharma.com",
+      "startDate": "2014-09-01",
+      "endDate": "2013-06-20",
+      "summary": "Successfully developed and launched several services and the main purchasing platform for 750 French pharmacies. \n\nContinuously delivered proof of concepts and beta versions of new product ideas for the commercial and management teams. \n\nDesigned a complex REST API exposing data resulting from live and advanced processing of sales data coming from the pharmacy ERPs. \n\nAccomplished a robust refactoring of all systems to a Service Oriented Architecture in 2015. \n\nProducts built during those years allowed the company to raise 7M\u20ac.",
+      "highlights": [
+        "Startup environment and agility",
+        "Management and coaching of 9 frontend and backend developers",
+        "Advanced pharmaceutical sales data analysis",
+        "7M\u20ac fund raising"
+      ]
+    },
+    {
+      "company": "Itch",
+      "position": "Founder",
+      "website": null,
+      "startDate": "2008-09-01",
+      "endDate": "2013-09-01",
+      "summary": "Managed my own company for five years. \nPromoted, reinforced and monetized my skills in web development and graphic design for a large spectrum of customers (including Apodis Pharma which became my next employer) and public administrations.",
+      "highlights": [
+        "Started as a freelancer",
+        "Commercial and technical relations with customers",
+        "Quotations and accounting",
+        "Commitment and self-enhancement"
+      ]
+    },
+    {
+      "company": "Fran\u00e7ois Rabelais University and Notre-Dame-La-Riche Institute",
+      "position": "Lecturer",
+      "website": null,
+      "startDate": "2012-09-01",
+      "endDate": "2015-09-01",
+      "summary": "Taught graphic design and web technologies for a university and a private college (~500h per year).",
+      "highlights": ["Pedagogy", "Knowledge transmission"]
+    },
+    {
+      "company": "Th\u00e9\u00e2tre Nouvel Olympia",
+      "position": "Public relations assistant",
+      "website": null,
+      "startDate": "2004-03-01",
+      "endDate": "2008-09-01",
+      "summary": "Actively involved in many of the administrative and public relation processes in the theatre, including data analysis of audience, mass-mailing to prospects and customers, catering, hiring staff and managing the ticketing system.",
+      "highlights": [
+        "Versatility and adaptability",
+        "DIY and low-cost solutions",
+        "Culture"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "GLAMF",
+      "position": "Local presidency, National Bureau and Secretariat",
+      "url": "https://www.gl-amf.fr",
+      "startDate": "2010-02-17",
+      "endDate": "2018-12-31",
+      "summary": "Local and national associative involvement",
+      "highlights": [
+        "Leading of a local group",
+        "Management of a national association with ~15,000 members",
+        "Philosophical research, personal development"
+      ]
+    },
+    {
+      "organization": "Les Petites S\u0153urs des Pauvres",
+      "position": "Community support for Christmas Eve",
+      "url": "https://petitessoeursdespauvres.org",
+      "startDate": "2012-12-24",
+      "endDate": "2012-12-25",
+      "summary": "Helping isolated and vulnerable people by socializing and spending time with them for Christmas dinner.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "DotGo",
+      "area": "Paris",
+      "studyType": "DotGo Conferences",
+      "startDate": "2017-11-06",
+      "endDate": "2017-11-07",
+      "gpa": null,
+      "courses": ["Workshop with William Kennedy from Ardan Labs"]
+    },
+    {
+      "institution": "Udemy",
+      "area": "Online",
+      "studyType": "Golang, Learn how to code",
+      "startDate": "2017-10-01",
+      "endDate": "2017-10-25",
+      "gpa": null,
+      "courses": [
+        "Full course by Todd McLeod",
+        "Certificate on [Udemy](https://ude.my/UC-AEL49E62)"
+      ]
+    },
+    {
+      "institution": "SensioLabs",
+      "area": "Paris",
+      "studyType": "Coaching",
+      "startDate": "2016-09-01",
+      "endDate": "2017-07-01",
+      "gpa": null,
+      "courses": [
+        "Coaching and reviews of TLD Developments",
+        "Best practices and advanced testing"
+      ]
+    },
+    {
+      "institution": "SensioLabs",
+      "area": "",
+      "studyType": "Symfony Conferences",
+      "startDate": "2015-01-01",
+      "endDate": "2016-12-31",
+      "gpa": null,
+      "courses": [
+        "API Platform Conf 2022",
+        "SymfonyWorld Online 2021",
+        "SymfonyCon Berlin 2016",
+        "SymfonyLive San Francisco 2015",
+        "SymfonyCon Paris 2015"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certified ScrumMaster\u00ae",
+      "date": "2022-02-16",
+      "issuer": "Scrum Alliance",
+      "url": "https://bcert.me/smcrpglft"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Development",
+      "level": "\ud83c\udf96\ufe0f Senior",
+      "keywords": [
+        "PHP",
+        "Symfony",
+        "API Platform",
+        "Javascript",
+        "React",
+        "Go",
+        "HTML5",
+        "CSS3",
+        "Sass",
+        "Webpack"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "\ud83e\udd5e Consumer",
+      "keywords": [
+        "MySQL",
+        "MariaDB",
+        "SQL Server",
+        "ElasticSearch",
+        "MongoDB",
+        "Redis"
+      ]
+    },
+    {
+      "name": "Testing",
+      "level": "\ud83c\udf35 Aficionado",
+      "keywords": ["PHPUnit", "Behat", "Blackfire", "Panther", "Jest"]
+    },
+    {
+      "name": "Best Practices",
+      "level": "\ud83d\udc82 Guard",
+      "keywords": ["SOLID", "DRY", "KISS", "Twelve-Factor App", "TDD / BDD"]
+    },
+    {
+      "name": "Devops",
+      "level": "\u2764\ufe0f Lover",
+      "keywords": [
+        "Gitlab CI",
+        "Continuous Delivery",
+        "Feature flags",
+        "Docker"
+      ]
+    },
+    {
+      "name": "System",
+      "level": "\ud83d\udc77\u200d\u2642\ufe0f Admin",
+      "keywords": ["Ansible", "Nginx", "Apache", "HAProxy"]
+    },
+    {
+      "name": "Project",
+      "level": "\ud83c\udfac Director",
+      "keywords": ["Agile", "DDD", "Scrum", "Jira", "Confluence"]
+    },
+    {
+      "name": "Design",
+      "level": "\ud83e\uddd3 Veteran",
+      "keywords": ["Photoshop", "Illustrator", "Indesign"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English \ud83c\udde8\ud83c\udde6\ud83c\uddec\ud83c\udde7\ud83c\uddfa\ud83c\uddf8",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "French \ud83c\udde8\ud83c\udde6\ud83c\uddeb\ud83c\uddf7",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "German \ud83c\udde9\ud83c\uddea",
+      "fluency": "Beginner"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Travel \u2708\ufe0f",
+      "keywords": [
+        "United States of America",
+        "California",
+        "Oregon",
+        "Nevada",
+        "Spain",
+        "Portugal",
+        "Scotland",
+        "Netherland",
+        "Germany",
+        "Denmark",
+        "Canada",
+        "Croatia",
+        "South Africa"
+      ]
+    },
+    {
+      "name": "Music \ud83d\udd0a",
+      "keywords": [
+        "Drummer",
+        "Modular Synths",
+        "Ableton Live",
+        "Electronic",
+        "Experimental",
+        "Ambient"
+      ]
+    },
+    {
+      "name": "Burning Man \ud83d\udd25",
+      "keywords": [
+        "Black Rock Desert",
+        "Nevada",
+        "Festival",
+        "6 editions",
+        "Creative space",
+        "Social experiment",
+        "Alberta Freezer Burn"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Gregory Gautry - IT Group Director at TLD",
+      "reference": "As IT Director, it is very interesting and efficient to work with Philippe. \nPhilippe is able to step back from the technical aspect of things and face the customers to collect their pains and their needs. Philippe is solution-oriented, trying to find the best compromise between the technical debt and the impact on the business.\nOn another side, Philippe is eager to bring continuous improvement on both technical and non-technical side of the job. For instance, we worked together on building templates to ease collection of functional requirements.\nHe is a very good point of contact for the team even if he is not their manager.\nHe voices topics no matter if they are good or bad so we can sit around the table and identify ways to improve or grab opportunities. He is very dedicated to make things work.\nAs an ex IT Tech person, I like to discuss design and technology with Philippe. He is very knowledgeable, with a DevOps approach of things: we build things to make them stable and smooth to operate and improve. He is used to cover functional specifications through, design, implementation, CI/CD, release management, communication... \nHe is constantly investing on improving his toolbox - for instance he recently attended to Scrum Master trainings to go deeper on that aspect of the job.\nIn short words, Philippe is a passionated and invested expert in web applications, with a very human approcach focusing on making things better, smoother and more sustainable."
+    },
+    {
+      "name": "Philippe Khill - former manager at TLD",
+      "reference": "I had the chance to work with Philippe Carle for a few months. I really appreciated his professionalism, his ability to listen and his kindness, which are essential qualities for a lead-developer. \nThe discussions I was able to have with Philippe were very enriching, technically and humanly speaking. I hope we will be able to work together again soon."
+    },
+    {
+      "name": "Martin Degenne - Fomer team member at TLD",
+      "reference": "After working in his team for almost 2 years, I can say without a doubt that Philippe Carle is an excellent Lead Developer. \nDuring those two years, I spent at least an hour every week with him to follow my projects and find ways to deal with complex problems like optimization. He found time to teach me more about php and routing when I was struggling to understand parts of our technological stack and to listen to me when I had a different opinion about the best way to develop a solution. \nI know he was doing the same thing for everyone on the team but still never missed a meeting nor an important deadline despite the complicated and often tough environment. \nThe team grew stronger thanks to him and I will happily work with him in the future if the opportunity presents itself."
+    }
+  ]
 }
