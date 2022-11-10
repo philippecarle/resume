@@ -4,7 +4,7 @@
 
 RESUME=docker compose run --service-ports resume
 PRINTER=docker compose run --service-ports printer
-PYTHON=docker compose run python python
+FORMATTER=docker compose run json-formatter 
 NPM=$(RESUME) npm
 YARN=$(RESUME) yarn
 THEME ?= actual
@@ -20,8 +20,6 @@ yarn: ## Execute yarn with CMD and ARGS
 	$(YARN) $(CMD) $(ARGS)
 
 format: ## Format code
-	$(PYTHON) -m json.tool src/resume.json > resume_pretty.json
-	mv -f resume_pretty.json src/resume.json
 	$(YARN) format
 
 test: ## Run tests

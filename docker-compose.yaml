@@ -14,12 +14,6 @@ services:
     volumes:
       - ./build:/usr/src/app/workspace/resume:rw
 
-  python:
-    image: python:3.9.10-alpine
-    working_dir: /usr/app
-    volumes:
-      - .:/usr/app
-
   nginx:
     image: nginx
     volumes:
