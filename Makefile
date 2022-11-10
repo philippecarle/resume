@@ -22,6 +22,7 @@ yarn: ## Execute yarn with CMD and ARGS
 format: ## Format code
 	$(PYTHON) -m json.tool src/resume.json > resume_pretty.json
 	mv -f resume_pretty.json src/resume.json
+	$(YARN) format
 
 test: ## Run tests
 	$(YARN) validate
