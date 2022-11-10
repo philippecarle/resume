@@ -14,13 +14,12 @@ const Skills = function ({skills}) {
     );
 
     return (
-        <Row>
-            <Col className={'text-lg-end text-start'} md={{ span: 6, order: 'last' }}>
-                <h2 className={'section-title pb-3 d-none d-md-block'}>&nbsp;</h2>
+        <Row className={'text-md-end text-start'}>
+            <h2 className={'section-title pb-3'}>Skills</h2>
+            <Col md={{ span: 6, order: 'last' }}>
                 {skills.slice(0, half).map(skillRenderer)}
             </Col>
-            <Col className={'text-lg-end text-start'} md={{ span: 6 }} lg={{ order: 'last'}}>
-                <h2 className={'section-title pb-3'}>Skills</h2>
+            <Col md={{ span: 6 }} lg={{ order: 'last'}}>
                 {skills.slice(half).map(skillRenderer)}
             </Col>
         </Row>

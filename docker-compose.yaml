@@ -1,10 +1,22 @@
 version: '3.8'
 
 services:
-  node:
+  resume:
     image: node:lts
     working_dir: /usr/app
     volumes:
       - .:/usr/app
     ports:
-      - 3000:3000
+      - "3000:3000"
+
+  printer:
+    image: browserless/chrome
+    volumes:
+      - ./build:/usr/src/app/workspace/resume:rw
+
+  nginx:
+    image: nginx
+    volumes:
+      - ./build:/usr/share/nginx/html:readonly
+    ports:
+      - "8000:80"
