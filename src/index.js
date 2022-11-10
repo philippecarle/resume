@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import "@fontsource/barlow"
+import '@fontsource/barlow';
 import './index.scss';
 import 'bootstrap';
 import Resume from './Resume';
@@ -8,9 +8,9 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Resume />
-  </React.StrictMode>
+	<React.StrictMode>
+		<Resume />
+	</React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
