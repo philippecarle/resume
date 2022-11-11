@@ -1,0 +1,3 @@
+I have been developing advanced Web Apps and APIs in **PHP**, **Javascript** and **Go** for over a decade. 
+
+I have been working as a freelancer, in a successful startup and now in an international industrial group. As a Tech Lead, my goal is to maintain a high level of quality and maintainability and to help my team grow while focusing on business' needs and features-delivery expectations. This resume is maintained using the JSON Resume initiative for JSON-based standard for resumes ([Github Repository](https://github.com/philippecarle/resume). I am a French citizen and a Permanent Resident of Canada.

@@ -9,6 +9,11 @@ services:
     ports:
       - "3000:3000"
 
+  json-utils:
+    build: docker/json-utils
+    volumes:
+      - .:/usr/app/
+
   printer:
     image: browserless/chrome
     volumes:

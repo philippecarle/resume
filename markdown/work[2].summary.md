@@ -1,0 +1,2 @@
+Managed my own company for five years. 
+Promoted, reinforced and monetized my skills in web development and graphic design for a large spectrum of customers (including Apodis Pharma which became my next employer) and public administrations.
