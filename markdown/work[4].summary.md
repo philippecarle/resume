@@ -1,0 +1,1 @@
+Actively involved in many of the administrative and public relation processes in the theatre, including data analysis of audience, mass-mailing to prospects and customers, catering, hiring staff and managing the ticketing system.

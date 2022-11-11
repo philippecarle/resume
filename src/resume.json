@@ -84,7 +84,10 @@
       "startDate": "2012-09-01",
       "endDate": "2015-09-01",
       "summary": "Taught graphic design and web technologies for a university and a private college (~500h per year).",
-      "highlights": ["Pedagogy", "Knowledge transmission"]
+      "highlights": [
+        "Pedagogy",
+        "Knowledge transmission"
+      ]
     },
     {
       "company": "Théâtre Nouvel Olympia",
@@ -132,7 +135,9 @@
       "startDate": "2017-11-06",
       "endDate": "2017-11-07",
       "gpa": null,
-      "courses": ["Workshop with William Kennedy from Ardan Labs"]
+      "courses": [
+        "Workshop with William Kennedy from Ardan Labs"
+      ]
     },
     {
       "institution": "Udemy",
@@ -214,12 +219,24 @@
     {
       "name": "Testing",
       "level": "🌵 Aficionado",
-      "keywords": ["PHPUnit", "Behat", "Blackfire", "Panther", "Jest"]
+      "keywords": [
+        "PHPUnit",
+        "Behat",
+        "Blackfire",
+        "Panther",
+        "Jest"
+      ]
     },
     {
       "name": "Best Practices",
       "level": "💂 Guard",
-      "keywords": ["SOLID", "DRY", "KISS", "Twelve-Factor App", "TDD / BDD"]
+      "keywords": [
+        "SOLID",
+        "DRY",
+        "KISS",
+        "Twelve-Factor App",
+        "TDD / BDD"
+      ]
     },
     {
       "name": "Devops",
@@ -234,17 +251,32 @@
     {
       "name": "System",
       "level": "👷‍♂️ Admin",
-      "keywords": ["Ansible", "Nginx", "Apache", "HAProxy"]
+      "keywords": [
+        "Ansible",
+        "Nginx",
+        "Apache",
+        "HAProxy"
+      ]
     },
     {
       "name": "Project",
       "level": "🎬 Director",
-      "keywords": ["Agile", "DDD", "Scrum", "Jira", "Confluence"]
+      "keywords": [
+        "Agile",
+        "DDD",
+        "Scrum",
+        "Jira",
+        "Confluence"
+      ]
     },
     {
       "name": "Design",
       "level": "🧓 Veteran",
-      "keywords": ["Photoshop", "Illustrator", "Indesign"]
+      "keywords": [
+        "Photoshop",
+        "Illustrator",
+        "Indesign"
+      ]
     }
   ],
   "languages": [

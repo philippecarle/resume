@@ -97,12 +97,8 @@ class Basics extends React.Component {
         )}
 
         <Row id="summary">
-          <Col md={12}>
-            <p className={"mb-0 text-justify"}>
-              <ReactMarkdown components={{ p: React.Fragment }}>
-                {summary}
-              </ReactMarkdown>
-            </p>
+          <Col md={12} className={"mb-0 text-justify"}>
+            <ReactMarkdown>{summary}</ReactMarkdown>
           </Col>
         </Row>
       </>

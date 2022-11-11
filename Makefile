@@ -1,10 +1,11 @@
 # See https://gazr.io
 
-.PHONY: help init yarn format test run build
+.PHONY: help init yarn format test run build stop
 
 RESUME=docker compose run --service-ports resume
 PRINTER=docker compose run --service-ports printer
-FORMATTER=docker compose run json-formatter 
+JSON_UTILS=docker compose run -d json-utils 
+MARKDOWN_TO_JSON=$(JSON_UTILS) sh -c "inotifywait -e modify -m -r -q --format '%f' markdown/ | while read FILE; do jq \".\$${FILE%.*}=\$$(cat markdown/\$$FILE | jq -Rs .)\" src/resume.json | sponge src/resume.json; done"
 NPM=$(RESUME) npm
 YARN=$(RESUME) yarn
 THEME ?= actual
@@ -12,26 +13,32 @@ THEME ?= actual
 help: ## Display help
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
-init: ## Build image and install npm dependencies
+init: stop ## Build image and install npm dependencies
 	docker compose build --remove-orphans
 	$(YARN) install --force
 
-yarn: ## Execute yarn with CMD and ARGS
+yarn: stop ## Execute yarn with CMD and ARGS
 	$(YARN) $(CMD) $(ARGS)
 
-format: ## Format code
+format: stop ## Format code
 	$(YARN) format
+	$(JSON_UTILS) sh -c "jq . src/resume.json | sponge src/resume.json"
 
-test: ## Run tests
+test: stop ## Run tests
 	$(YARN) validate
 	$(YARN) test
 
-run: ## Run the web app
+run: stop ## Run the web app
+	$(MARKDOWN_TO_JSON)
 	$(YARN) start
 
-build: ## Build static files and print to pdf
+build: stop ## Build static files and print to pdf
+	$(MD_TOMARKDOWN_TO_JSON_JSON)
 	$(YARN) build
-	docker compose up -d nginx
+	docker compose up --remove-orphans -d nginx
 	$(PRINTER) touch /usr/src/app/workspace/resume/resume.pdf
-	$(PRINTER) google-chrome --no-sandbox --headless --disable-gpu --run-all-compositor-stages-before-draw --print-to-pdf-no-header --print-to-pdf=/usr/src/app/workspace/resume/resume.pdf --virtual-time-budget=20000 http://nginx
-	docker compose down
+	$(PRINTER) google-chrome --no-sandbox --headless --disable-gpu --run-all-compositor-stages-before-draw --print-to-pdf-no-header --print-to-pdf=/usr/src/app/workspace/resume/resume.pdf --virtual-time-budget=25000 http://nginx
+	docker compose down --remove-orphans
+
+stop:
+	docker compose down --remove-orphans
