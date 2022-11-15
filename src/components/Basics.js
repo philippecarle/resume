@@ -64,7 +64,7 @@ class Basics extends React.Component {
               {profiles.length > 0 && (
                 <>
                   {profiles.map(({ network, username, url }, index, array) => (
-                    <li md={Math.ceil(12 / array)} key={network}>
+                    <li md={Math.ceil(12 / array.length)} key={network}>
                       <span>
                         <a href={url}>{network}</a>
                       </span>
@@ -82,7 +82,7 @@ class Basics extends React.Component {
             <Row id="languages">
               {languages.map(({ language, fluency }, index, array) => (
                 <Col
-                  md={Math.ceil(12 / array)}
+                  md={Math.ceil(12 / array.length)}
                   key={language}
                   className={this.getTextClass(index, array)}
                 >

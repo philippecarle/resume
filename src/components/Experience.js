@@ -27,7 +27,9 @@ const Experience = ({
     <ReactMarkdown className={"text-justify"}>{summary}</ReactMarkdown>
 
     <div className="highlights">
-      <h5 className="mt-3">Highlights:</h5>
+      <p className="mt-3">
+        <u>Highlights:</u>
+      </p>
 
       <ul className="list-condensed">
         {highlights.map((highlight) => (

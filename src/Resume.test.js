@@ -13,10 +13,10 @@ test("All Section titles are rendered", () => {
   const headings = screen.getAllByRole("heading", { level: 2 });
 
   expect(headings[0]).toContainHTML("Experience");
-  expect(headings[1]).toContainHTML("Interests");
-  expect(headings[2]).toContainHTML("Volunteering");
-  expect(headings[3]).toContainHTML("Certificates");
-  expect(headings[4]).toContainHTML("Skills");
+  expect(headings[1]).toContainHTML("Certifications");
+  expect(headings[2]).toContainHTML("Skills");
+  expect(headings[3]).toContainHTML("Interests");
+  expect(headings[4]).toContainHTML("Volunteering");
   expect(headings[5]).toContainHTML("Education");
   expect(headings[6]).toContainHTML("References");
 });
