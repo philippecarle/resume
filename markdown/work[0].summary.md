@@ -1,9 +1,9 @@
 [TLD Group](https://www.tld-group.com) is a leading industrial company specializing in the design, manufacture, distribution, after sales service and support of aviation ground support equipment.
 
-Managing the development of web applications as well as EDI (Electronic Data Interchange) and ERP (Enterprise Resource Planning) interactions in a very challenging industrial environment for TLD Group, world leader of Ground Support Equipment. 
+TLD's intranet can be considered as a second ERP. It is highly interconnected with the company's ERP and most employees of the group are using it as their main work tool. Due the the challenging industrial environment, the business complexity is very high and the development team is deeply involved in a lot of business processes to support the evolution of the intranet as well as the customer and suppliers web portals.
 
-Actively supporting progressive migration of all the legacy codebase (~800K LOC of old procedural PHP4/5 code) to the Symfony framework and to PHP7 & 8, while still delivering new features and bug fixes daily. 
+One of my missions is to lead and provide innovative and efficient solutions to support the progressive migration of a ~1M LOC of an old procedural PHP legacy codebase to the Symfony framework and to make it compatible with successively PHP 7 and PHP 8.
 
-Responsible for the web portals extensive rewriting during the ERP migration (TLD web apps rely heavily on the ERP, they are in fact an extension of the ERP's features). 
+TLD started an ERP migration in 2021 and I have been working to design an elegant, comprehensive and battle-tested solution to address the paradigm shift induced between our previous on-premise ERP (Baan IV) and the new cloud-based one (Infor LN) and I drove a smooth transition in the web portals connection to the company software.
 
-Leading an international team, actively involved in new developer interviews and technical tests, intensively contributing to the code review process, task prioritization, defining specifications and collaborating with external contractors.
+I am leading an international team through multiple timezones, I have been successfully hiring new talents in the team, I made sure that code reviews were strict yet empathetic, I contributed to task prioritization, specifications and I hqve been collaborating several with highly qualified external contractors.

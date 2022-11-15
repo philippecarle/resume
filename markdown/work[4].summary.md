@@ -1,1 +1,1 @@
-Actively involved in many of the administrative and public relation processes in the theatre, including data analysis of audience, mass-mailing to prospects and customers, catering, hiring staff and managing the ticketing system.
+The [Théâtre Nouvel Olympia](https://cdntours.fr) is a public-funded theatre with a very contemporary offer. I have been occupying several positions at the administration and public relation department, including some data analysis of our audience, mass-mailing to prospects and customers, catering, hiring staff and managing the ticketing system.

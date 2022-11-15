@@ -1,7 +1,5 @@
-Successfully developed and launched several services and the main purchasing platform for 750 French pharmacies. 
+Apodis Pharma is an innovative company providing several B2B services for over a thousand French pharmacies. 
 
-Continuously delivered proof of concepts and beta versions of new product ideas for the commercial and management teams.
+With my team of 10+ frontend and backend developers and designers, we developed a Symfony-based custom store for pharmacies supporting the [Pharma-ML XML standard](https://www.csrp.fr/documentation/pharma-ml) with an advanced cost and discount calculation system. Apodis was also providing a lot of KPIs, metrics and forecasts to support the activity of their customers, based on the processing of a large amount of sales data coming from the pharmacies' ERP.
 
-Designed a complex REST API exposing data resulting from live and advanced processing of sales data coming from the pharmacy ERPs. 
-
-Accomplished a robust refactoring of all systems to a Service Oriented Architecture in 2015. \n\nProducts built during those years allowed the company to raise 7M€.
+All the applications we built during those years helped Apodis raise 7M€.

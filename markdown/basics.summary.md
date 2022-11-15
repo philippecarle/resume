@@ -1,3 +1,5 @@
-I have been developing advanced Web Apps and APIs in **PHP**, **Javascript** and **Go** for over a decade. 
+**Professional Tech Lead with 15+ years of experience as a freelancer, a Lead Developer in a startup and now in an international industrial group. Proficient in PHP, Javascript and Go.**
 
-I have been working as a freelancer, in a successful startup and now in an international industrial group. As a Tech Lead, my goal is to maintain a high level of quality and maintainability and to help my team grow while focusing on business' needs and features-delivery expectations. This resume is maintained using the JSON Resume initiative for JSON-based standard for resumes ([Github Repository](https://github.com/philippecarle/resume). I am a French citizen and a Permanent Resident of Canada.
+As a Tech Lead, my goal is to find the most efficient way to implement and deliver the requested features while maintaining a high level of quality and maintainability and helping my team grow. I am business-driven, I have a strong technical leadership and good communication skills.
+
+This resume is maintained using the JSON Resume initiative for JSON-based standard for resumes ([Github Repository](https://github.com/philippecarle/resume). I am a French citizen and a Permanent Resident of Canada.

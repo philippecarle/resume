@@ -1,2 +1,2 @@
-Managed my own company for five years. 
-Promoted, reinforced and monetized my skills in web development and graphic design for a large spectrum of customers (including Apodis Pharma which became my next employer) and public administrations.
+Itch is the company I created when I was 25 years old and that I successfully managed for five years. 
+I have been promoting and reinforcing my skills in web development and graphic design for a wide spectrum of private and public customers. 
