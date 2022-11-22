@@ -18,6 +18,12 @@ h2.section-title {
   font-size: 3rem;
 }
 
+@include media-breakpoint-down(lg) {
+  h2.section-title {
+    font-size: 1.9rem;
+  }
+}
+
 a {
   text-decoration-style: dotted;
 }
