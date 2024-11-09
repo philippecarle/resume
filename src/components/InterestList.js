@@ -12,7 +12,6 @@ const InterestList = ({ list }) => (
         </Col>
       ))}
     </Row>
-    <Separator />
   </div>
 );
 
