@@ -1,6 +1,6 @@
 const Skill = ({ skill: { name, level, keywords } }) => (
   <div className={"mb-3"}>
-    <h4 className={"pb-2"}>
+    <h4 className={"pb-2 skill-title"}>
       {name}
       <br />
       <small>{level}</small>

@@ -4,7 +4,16 @@ import Separator from "./Separator";
 import React from "react";
 
 const Skills = function ({ skills }) {
-  const half = Math.floor(skills.length / 2);
+  const sortedSkills = [...skills].sort((a, b) => b.keywords.length - a.keywords.length);
+
+  const columns = [[], []];
+  const columnKeywordsCount = [0, 0];
+
+  sortedSkills.forEach(skill => {
+    const columnIndex = columnKeywordsCount[0] <= columnKeywordsCount[1] ? 0 : 1;
+    columns[columnIndex].push(skill);
+    columnKeywordsCount[columnIndex] += skill.keywords.length;
+  });
 
   const skillRenderer = (skill, index, array) => (
     <div key={skill.name}>
@@ -20,13 +29,13 @@ const Skills = function ({ skills }) {
   );
 
   return (
-    <Row className={"text-md-end text-start"}>
+    <Row className={"text-start"}>
       <h2 className={"section-title pb-3"}>Skills</h2>
       <Col md={{ span: 6, order: "last" }}>
-        {skills.slice(0, half).map(skillRenderer)}
+        {columns[0].map(skillRenderer)}
       </Col>
       <Col md={{ span: 6 }} lg={{ order: "last" }}>
-        {skills.slice(half).map(skillRenderer)}
+        {columns[1].map(skillRenderer)}
       </Col>
     </Row>
   );

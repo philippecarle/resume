@@ -1,1 +1,0 @@
-I taught graphic design and web technologies for 3 different classes at the [University of Tours, France](https://www.univ-tours.fr/) and 2 classes in a [private college](https://notredamelariche.fr/index.html) (~500h per year in addition to my full-time activity).

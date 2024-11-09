@@ -7,7 +7,7 @@
     "email": "c@rlephilip.pe",
     "phone": "+1 647 333 7661",
     "website": "https://ca.rlephilip.pe",
-    "summary": "**Professional Tech Lead with 15+ years of experience as a freelancer, a Lead Developer in a startup and now in an international industrial group. Proficient in PHP, Javascript and Go.**\n\nAs a Tech Lead, my goal is to find the most efficient way to implement and deliver the requested features while maintaining a high level of quality and maintainability and helping my team grow. I am business-driven, I have a strong technical leadership and good communication skills.\n\nThis resume is maintained using the JSON Resume initiative for JSON-based standard for resumes ([Github Repository](https://github.com/philippecarle/resume). I am a French citizen and a Permanent Resident of Canada.\n",
+    "summary": "**Experienced Tech Lead with 15+ years in freelancing, startups, and international tech groups, specializing in PHP, JavaScript, and Go.**\n\nKnown for delivering high-quality, maintainable solutions and fostering team growth, I bring a strategic, business-driven approach with strong technical leadership and clear communication skills. As a Tech Lead, I focus on balancing fast, effective feature delivery with robust quality standards.\n\nThis resume is maintained in compliance with the JSON Resume initiative for a JSON-based standard ([Github Repository](https://github.com/philippecarle/resume)).\n\n I am a French citizen and a Permanent Resident of Canada.",
     "location": {
       "address": "2131 16 St SW",
       "postalCode": "T2T 4E5",
@@ -22,7 +22,7 @@
         "url": "https://github.com/philippecarle"
       },
       {
-        "network": "Linkedin",
+        "network": "LinkedIn",
         "username": "philcarle",
         "url": "https://www.linkedin.com/in/philcarle"
       },
@@ -35,16 +35,34 @@
   },
   "work": [
     {
+      "company": "Pixieset",
+      "position": "Tech Lead",
+      "website": "https://www.pixieset.com",
+      "startDate": "2023-01-17",
+      "summary": "[Pixieset](https://www.pixieset.com) is an all-in-one platform empowering photographers with tools for business management, from photo delivery and print sales to web services, contracts, and payment collection.\n\nAs Tech Lead of the Platform Team, I drive high-impact initiatives in photo processing, billing, identity systems, and high-volume email operations. I ensure secure and cost-efficient AWS infrastructure, lead project strategy, and spearhead R&D to support innovation.",
+      "highlights": [
+        "Led scaling of photo processing for billions of images with high efficiency and reliability",
+        "Overhauled billing and authentication systems to improve security and user experience",
+        "Optimized delivery of millions of emails monthly, achieving greater deliverability rates",
+        "Streamlined AWS infrastructure for scalability, security, and cost optimization",
+        "Built strong stakeholder relationships, clearly communicating progress and addressing risks",
+        "Initiated project studies, proof of concepts, and R&D to drive forward-looking solutions",
+        "Cultivated team alignment with project deadlines, fostering high performance and morale"
+      ]
+    },
+    {
       "company": "TLD Europe / TLD Canada",
       "position": "Tech Lead & Team Manager",
       "website": "https://www.tld-group.com",
       "startDate": "2016-06-20",
-      "summary": "[TLD Group](https://www.tld-group.com) is a leading industrial company specializing in the design, manufacture, distribution, after sales service and support of aviation ground support equipment.\n\nTLD's intranet can be considered as a second ERP. It is highly interconnected with the company's ERP and most employees of the group are using it as their main work tool. Due the the challenging industrial environment, the business complexity is very high and the development team is deeply involved in a lot of business processes to support the evolution of the intranet as well as the customer and suppliers web portals.\n\nOne of my missions is to lead and provide innovative and efficient solutions to support the progressive migration of a ~1M LOC of an old procedural PHP legacy codebase to the Symfony framework and to make it compatible with successively PHP 7 and PHP 8.\n\nTLD started an ERP migration in 2021 and I have been working to design an elegant, comprehensive and battle-tested solution to address the paradigm shift induced between our previous on-premise ERP (Baan IV) and the new cloud-based one (Infor LN) and I drove a smooth transition in the web portals connection to the company software.\n\nI am leading an international team through multiple timezones, I have been successfully hiring new talents in the team, I made sure that code reviews were strict yet empathetic, I contributed to task prioritization, specifications and I hqve been collaborating several with highly qualified external contractors.\n",
+      "endDate": "2023-01-13",
+      "summary": "[TLD Group](https://www.tld-group.com) is a global leader in aviation ground support equipment design and service.\n\nAs Tech Lead, I guided a critical migration of TLD's highly complex intranet from legacy PHP to Symfony, ensuring compatibility with PHP 7 and 8 and integrating with the company’s ERP. I directed an international team across time zones, recruited top talent, and led ERP modernization, ensuring seamless portal integration for our new Infor LN system.",
       "highlights": [
-        "Management of an international team",
-        "SDLC, Testing, CI/CD, devops, code reviews, best practices",
-        "Symfony progressive migration of a legacy codebase",
-        "ERP migration from Baan IV to Infor LN"
+        "Led international team through ERP and codebase migration challenges",
+        "Championed SDLC best practices, CI/CD pipelines, and rigorous code reviews",
+        "Designed scalable solutions to transition 1M LOC procedural PHP to Symfony",
+        "Orchestrated ERP transition from on-prem Baan IV to cloud-based Infor LN",
+        "Collaborated with external contractors, balancing internal and external expertise"
       ]
     },
     {
@@ -52,76 +70,70 @@
       "position": "Lead Developer",
       "website": "https://www.apodispharma.com",
       "startDate": "2014-09-01",
-      "endDate": "2013-06-20",
-      "summary": "Apodis Pharma is an innovative company providing several B2B services for over a thousand French pharmacies. \n\nWith my team of 10+ frontend and backend developers and designers, we developed a Symfony-based custom store for pharmacies supporting the [Pharma-ML XML standard](https://www.csrp.fr/documentation/pharma-ml) with an advanced cost and discount calculation system. Apodis was also providing a lot of KPIs, metrics and forecasts to support the activity of their customers, based on the processing of a large amount of sales data coming from the pharmacies' ERP.\n\nAll the applications we built during those years helped Apodis raise 7M€.\n",
+      "endDate": "2016-06-20",
+      "summary": "Apodis Pharma delivers advanced B2B services for over 1,000 French pharmacies.\n\nI led a 10-person team in developing a Symfony-based custom store solution for pharmacies, fully compliant with the [Pharma-ML XML standard](https://www.csrp.fr/documentation/pharma-ml). The system included sophisticated discount and cost calculations and analytics for pharmacy sales data, supporting Apodis in raising €7 million in funding.",
       "highlights": [
-        "Startup environment and agility",
-        "Management and coaching of a large team",
-        "Big data analysis",
-        "7M€ fund raising"
+        "Enhanced business agility in a startup environment, guiding a cross-functional team",
+        "Implemented large-scale data analytics to deliver actionable pharmacy insights",
+        "Played a pivotal role in securing €7M funding with data-driven applications"
       ]
     },
     {
       "company": "Itch",
       "position": "Founder",
-      "website": null,
       "startDate": "2008-09-01",
       "endDate": "2013-09-01",
-      "summary": "Itch is the company I created when I was 25 years old and that I successfully managed for five years. \nI have been promoting and reinforcing my skills in web development and graphic design for a wide spectrum of private and public customers. ",
+      "summary": "Founded Itch, providing web development and graphic design services to a diverse client base.\n\nGrew a successful freelance business by honing both technical and client relationship skills, delivering high-quality solutions tailored to each client’s needs.",
       "highlights": [
-        "Freelancing",
-        "Commercial and technical relations with customers",
-        "Quotations, accounting, contracting",
-        "Commitment and self-enhancement"
+        "Built a successful freelance business from the ground up",
+        "Developed expertise in client management, accounting, and project delivery",
+        "Continually adapted skills and knowledge to stay at the forefront of tech"
       ]
     },
     {
       "company": "University and College",
       "position": "Lecturer",
-      "website": null,
       "startDate": "2012-09-01",
       "endDate": "2015-09-01",
-      "summary": "I taught graphic design and web technologies for 3 different classes at the [University of Tours, France](https://www.univ-tours.fr/) and 2 classes in a [private College](https://notredamelariche.fr/index.html) (~500h per year in addition to my full-time activity).",
+      "summary": "Lectured on graphic design and web technologies at [University of Tours, France](https://www.univ-tours.fr/) and a [private college](https://notredamelariche.fr/index.html), with over 500 hours per year alongside my full-time role.",
       "highlights": [
-        "Pedagogy, public speaking",
-        "Knowledge transmission"
+        "Developed skills in pedagogy, curriculum design, and effective communication",
+        "Passed on knowledge and inspired students in a variety of tech subjects"
       ]
     },
     {
       "company": "Théâtre Nouvel Olympia",
-      "position": "Public relations assistant",
-      "website": null,
+      "position": "Public Relations Assistant",
       "startDate": "2004-03-01",
       "endDate": "2008-09-01",
-      "summary": "The [Théâtre Nouvel Olympia](https://cdntours.fr) is a public-funded theatre with a very contemporary offer. I have been occupying several positions at the administration and public relation department, including some data analysis of our audience, mass-mailing to prospects and customers, catering, hiring staff and managing the ticketing system.",
+      "summary": "[Théâtre Nouvel Olympia](https://cdntours.fr) is a public theater focused on contemporary performances.\n\nSupported the public relations department in roles from data analysis to ticket management, creating cost-effective solutions and helping promote the theater’s offerings to a diverse audience.",
       "highlights": [
-        "Versatility and adaptability",
-        "Cost-effective solutions",
-        "Culture / Art"
+        "Showcased adaptability in handling various roles from data analysis to catering",
+        "Implemented efficient solutions, enhancing audience reach and engagement",
+        "Deepened appreciation for culture and the arts through meaningful work"
       ]
     }
   ],
   "volunteer": [
     {
       "organization": "GLAMF",
-      "position": "Local presidency, National Bureau and Secretariat",
+      "position": "Local Presidency, National Bureau, and Secretariat",
       "url": "https://www.gl-amf.fr",
       "startDate": "2010-02-17",
       "endDate": "2018-12-31",
-      "summary": "Local and national associative involvement",
+      "summary": "Led local and national initiatives, fostering community involvement and personal development.",
       "highlights": [
-        "Leading of a local group",
-        "Management of a national association with ~15,000 members",
-        "Philosophical research, personal development"
+        "Directed a local group, focusing on community building and philosophical research",
+        "Managed a national association with over 15,000 members, strengthening leadership skills"
       ]
     },
     {
       "organization": "Les Petites Sœurs des Pauvres",
-      "position": "Community support for Christmas Eve",
+      "position": "Community Support for Christmas Eve",
       "url": "https://petitessoeursdespauvres.org",
       "startDate": "2012-12-24",
       "endDate": "2012-12-25",
-      "summary": "Helping isolated and vulnerable people by socializing and spending time with them for Christmas dinner.",
+      "summary": "Supported isolated, vulnerable individuals by providing company and conversation on Christmas Eve.",
       "highlights": []
     }
   ],
@@ -132,7 +144,6 @@
       "studyType": "DotGo Conferences",
       "startDate": "2017-11-06",
       "endDate": "2017-11-07",
-      "gpa": null,
       "courses": [
         "Workshop with William Kennedy from Ardan Labs"
       ]
@@ -143,37 +154,9 @@
       "studyType": "Golang, Learn how to code",
       "startDate": "2017-10-01",
       "endDate": "2017-10-25",
-      "gpa": null,
       "courses": [
         "Full course by Todd McLeod",
         "Certificate on [Udemy](https://ude.my/UC-AEL49E62)"
-      ]
-    },
-    {
-      "institution": "SensioLabs",
-      "area": "Paris",
-      "studyType": "Coaching",
-      "startDate": "2016-09-01",
-      "endDate": "2017-07-01",
-      "gpa": null,
-      "courses": [
-        "Coaching and reviews of TLD Developments",
-        "Best practices and advanced testing"
-      ]
-    },
-    {
-      "institution": "SensioLabs",
-      "area": "",
-      "studyType": "Symfony Conferences",
-      "startDate": "2015-01-01",
-      "endDate": "2016-12-31",
-      "gpa": null,
-      "courses": [
-        "API Platform Conf 2022",
-        "SymfonyWorld Online 2021",
-        "SymfonyCon Berlin 2016",
-        "SymfonyLive San Francisco 2015",
-        "SymfonyCon Paris 2015"
       ]
     }
   ],
@@ -192,14 +175,15 @@
       "keywords": [
         "PHP",
         "Symfony",
+        "Laravel",
         "API Platform",
         "Javascript",
         "React",
+        "Python",
         "Go",
         "HTML5",
         "CSS3",
-        "Sass",
-        "Webpack"
+        "Sass"
       ]
     },
     {
@@ -207,7 +191,7 @@
       "level": "🥞 Consumer",
       "keywords": [
         "MySQL",
-        "MariaDB",
+        "PostgreSQL",
         "SQL Server",
         "ElasticSearch",
         "MongoDB",
@@ -219,10 +203,29 @@
       "level": "🌵 Aficionado",
       "keywords": [
         "PHPUnit",
+        "Postman/Bruno",
         "Behat",
         "Blackfire",
         "Panther",
         "Jest"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "☁️ Builder",
+      "keywords": [
+        "EC2",
+        "S3",
+        "Lambda",
+        "RDS",
+        "DynamoDB",
+        "CloudFormation",
+        "SQS/SNS",
+        "CloudWatch",
+        "API Gateway",
+        "Route 53",
+        "CloudFront",
+        "Step Functions"
       ]
     },
     {
@@ -251,9 +254,7 @@
       "level": "👷‍♂️ Admin",
       "keywords": [
         "Ansible",
-        "Nginx",
-        "Apache",
-        "HAProxy"
+        "Bash"
       ]
     },
     {
@@ -261,10 +262,9 @@
       "level": "🎬 Director",
       "keywords": [
         "Agile",
-        "DDD",
         "Scrum",
         "Jira",
-        "Confluence"
+        "Notion"
       ]
     },
     {
@@ -279,11 +279,11 @@
   ],
   "languages": [
     {
-      "language": "English 🇨🇦🇬🇧🇺🇸",
+      "language": "English 🇨🇦",
       "fluency": "Fluent"
     },
     {
-      "language": "French 🇨🇦🇫🇷",
+      "language": "French 🇫🇷",
       "fluency": "Native speaker"
     },
     {
@@ -295,57 +295,47 @@
     {
       "name": "Travel ✈️",
       "keywords": [
-        "United States of America",
-        "California",
-        "Oregon",
-        "Nevada",
-        "Spain",
-        "Portugal",
-        "Scotland",
-        "Netherland",
-        "Germany",
-        "Denmark",
-        "Canada",
-        "Croatia",
-        "South Africa"
+        "United States of America 🇺🇸",
+        "Spain 🇪🇸",
+        "Portugal 🇵🇹",
+        "Scotland 🇬🇧",
+        "Netherlands 🇳🇱",
+        "Germany 🇩🇪",
+        "Denmark 🇩🇰",
+        "Canada 🇨🇦",
+        "Croatia 🇭🇷",
+        "South Africa 🇿🇦",
+        "Mexico 🇲🇽"
       ]
     },
     {
       "name": "Music 🔊",
       "keywords": [
-        "Drummer",
-        "Modular Synths",
-        "Ableton Live",
-        "Electronic",
-        "Experimental",
-        "Ambient"
+        "Drummer 🥁",
+        "Modular Synths 🎛️",
+        "Ableton Live 💻",
+        "EDM 🎶",
+        "Experimental 🎹"
       ]
     },
     {
       "name": "Burning Man 🔥",
       "keywords": [
-        "Black Rock Desert",
-        "Nevada",
-        "Festival",
-        "6 editions",
-        "Creative space",
-        "Social experiment",
-        "Alberta Freezer Burn"
+        "Black Rock Desert 🏜️",
+        "Nevada 🌄",
+        "Festival 🎉",
+        "8 editions 🔟"
       ]
     }
   ],
   "references": [
     {
       "name": "Gregory Gautry - IT Group Director at TLD",
-      "reference": "As IT Director, it is very interesting and efficient to work with Philippe. \nPhilippe is able to step back from the technical aspect of things and face the customers to collect their pains and their needs. Philippe is solution-oriented, trying to find the best compromise between the technical debt and the impact on the business.\nOn another side, Philippe is eager to bring continuous improvement on both technical and non-technical side of the job. For instance, we worked together on building templates to ease collection of functional requirements.\nHe is a very good point of contact for the team even if he is not their manager.\nHe voices topics no matter if they are good or bad so we can sit around the table and identify ways to improve or grab opportunities. He is very dedicated to make things work.\nAs an ex IT Tech person, I like to discuss design and technology with Philippe. He is very knowledgeable, with a DevOps approach of things: we build things to make them stable and smooth to operate and improve. He is used to cover functional specifications through, design, implementation, CI/CD, release management, communication... \nHe is constantly investing on improving his toolbox - for instance he recently attended to Scrum Master trainings to go deeper on that aspect of the job.\nIn short words, Philippe is a passionated and invested expert in web applications, with a very human approcach focusing on making things better, smoother and more sustainable."
+      "reference": "As IT Director, it is very interesting and efficient to work with Philippe. \nPhilippe is able to step back from the technical aspect of things and face the customers to collect their pains and their needs. Philippe is solution-oriented, trying to find the best compromise between the technical debt and the impact on the business.\nOn another side, Philippe is eager to bring continuous improvement on both technical and non-technical side of the job. \nHe is a very good point of contact for the team. He voices topics no matter if they are good or bad so we can sit around the table and identify ways to improve or grab opportunities. He is very dedicated to make things work.\nAs an ex IT Tech person, I like to discuss design and technology with Philippe. He is very knowledgeable, with a DevOps approach of things: we build things to make them stable and smooth to operate and improve. He is used to cover functional specifications through design, implementation, CI/CD, release management, communication... \nHe is constantly investing on improving his toolbox.\nIn short words, Philippe is a passionated and invested expert in web applications, with a very human approcach focusing on making things better, smoother and more sustainable."
     },
     {
       "name": "Philippe Khill - former manager at TLD",
       "reference": "I had the chance to work with Philippe Carle for a few months. I really appreciated his professionalism, his ability to listen and his kindness, which are essential qualities for a lead-developer. \nThe discussions I was able to have with Philippe were very enriching, technically and humanly speaking. I hope we will be able to work together again soon."
-    },
-    {
-      "name": "Martin Degenne - Fomer team member at TLD",
-      "reference": "After working in his team for almost 2 years, I can say without a doubt that Philippe Carle is an excellent Lead Developer. \nDuring those two years, I spent at least an hour every week with him to follow my projects and find ways to deal with complex problems like optimization. He found time to teach me more about php and routing when I was struggling to understand parts of our technological stack and to listen to me when I had a different opinion about the best way to develop a solution. \nI know he was doing the same thing for everyone on the team but still never missed a meeting nor an important deadline despite the complicated and often tough environment. \nThe team grew stronger thanks to him and I will happily work with him in the future if the opportunity presents itself."
     }
   ]
 }
