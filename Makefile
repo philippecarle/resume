@@ -5,7 +5,6 @@
 RESUME=docker compose run --service-ports resume
 PRINTER=docker compose run --service-ports printer
 JSON_UTILS=docker compose run -d json-utils 
-MARKDOWN_TO_JSON=$(JSON_UTILS) sh -c "inotifywait -e modify -m -r -q --format '%f' markdown/ | while read FILE; do jq \".\$${FILE%.*}=\$$(cat markdown/\$$FILE | jq -Rs .)\" src/resume.json | sponge src/resume.json; done"
 NPM=$(RESUME) npm
 YARN=$(RESUME) yarn
 THEME ?= actual
@@ -29,15 +28,13 @@ test: stop ## Run tests
 	$(YARN) test
 
 run: stop ## Run the web app
-	$(MARKDOWN_TO_JSON)
 	$(YARN) start
 
 build: stop ## Build static files and print to pdf
-	$(MD_TOMARKDOWN_TO_JSON_JSON)
 	$(YARN) build
 	docker compose up --remove-orphans -d nginx
 	$(PRINTER) touch /usr/src/app/workspace/resume/resume.pdf
-	$(PRINTER) google-chrome --no-sandbox --headless --disable-gpu --run-all-compositor-stages-before-draw --print-to-pdf-no-header --print-to-pdf=/usr/src/app/workspace/resume/resume.pdf --virtual-time-budget=25000 http://nginx
+	$(PRINTER) google-chrome --no-sandbox --headless --disable-gpu --run-all-compositor-stages-before-draw --no-pdf-header-footer --print-to-pdf=/usr/src/app/workspace/resume/resume.pdf --virtual-time-budget=25000 http://nginx
 	docker compose down --remove-orphans
 
 stop:

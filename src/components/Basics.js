@@ -1,3 +1,4 @@
+import { FaGithub, FaLinkedin, FaStackOverflow, FaGlobe } from "react-icons/fa";
 import { Col, Row } from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
 import React from "react";
@@ -29,7 +30,15 @@ class Basics extends React.Component {
         profiles,
       },
     } = this.props;
+
     const regionNames = new Intl.DisplayNames(["en"], { type: "region" });
+
+    const iconMap = {
+      Github: <FaGithub />,
+      LinkedIn: <FaLinkedin />,
+      "Stack Overflow": <FaStackOverflow />
+    };
+
     return (
       <>
         <Row id={"main-title"} className={"pt-5"}>
@@ -60,19 +69,23 @@ class Basics extends React.Component {
             </ul>
           </Col>
           <Col md={2} className={"text-md-end text-start"}>
-            <ul className={"list-unstyled d-grid gap-2 pt-4"}>
-              {profiles.length > 0 && (
-                <>
-                  {profiles.map(({ network, username, url }, index, array) => (
-                    <li md={Math.ceil(12 / array.length)} key={network}>
-                      <span>
-                        <a href={url}>{network}</a>
-                      </span>
-                    </li>
-                  ))}
-                </>
-              )}
-            </ul>
+          <ul className={"list-unstyled d-grid gap-2 pt-4"}>
+            {profiles.length > 0 && (
+              <>
+                {profiles.map(({ network, url }) => (
+                  <li key={network}>
+                    <span>
+                      {/* Use icon from iconMap or FaGlobe as a fallback */}
+                      {iconMap[network] || <FaGlobe />}{" "}
+                      <a href={url} target="_blank" rel="noopener noreferrer">
+                        {network}
+                      </a>
+                    </span>
+                  </li>
+                ))}
+              </>
+            )}
+          </ul>
           </Col>
         </Row>
         <Separator />

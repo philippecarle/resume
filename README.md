@@ -1,6 +1,6 @@
 # Philippe Carle Resume
 
-Here's my resume. It is built upon the [JSON Resume schema](https://jsonresume.org/schema/) using the [JSON Resume CLI tool](https://github.com/jsonresume/resume-cli). 
+Here's my resume. It is built using the [JSON Resume schema](https://jsonresume.org/schema/) and ReactJS. 
 
 ## Contact me
 
