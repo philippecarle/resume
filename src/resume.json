@@ -7,7 +7,7 @@
     "email": "c@rlephilip.pe",
     "phone": "+1 647 333 7661",
     "website": "https://ca.rlephilip.pe",
-    "summary": "**Experienced Tech Lead with 15+ years in freelancing, startups, and international tech groups, specializing in PHP, JavaScript, and Go.**\n\nKnown for delivering high-quality, maintainable solutions and fostering team growth, I bring a strategic, business-driven approach with strong technical leadership and clear communication skills. As a Tech Lead, I focus on balancing fast, effective feature delivery with robust quality standards.\n\nThis resume is maintained in compliance with the JSON Resume initiative for a JSON-based standard ([Github Repository](https://github.com/philippecarle/resume)).\n\n I am a French citizen and a Permanent Resident of Canada.",
+    "summary": "**Experienced Tech Lead with 15+ years in freelancing, startups, and an international industrial group, specializing in PHP, JavaScript, Go, and Python.**\n\nKnown for delivering high-quality, maintainable solutions and fostering team growth, I bring a strategic, business-driven approach with strong technical leadership and clear communication skills. As a Tech Lead, I focus on balancing fast, effective feature delivery with robust quality standards.\n\nThis resume is maintained in compliance with the JSON Resume initiative for a JSON-based standard ([Github Repository](https://github.com/philippecarle/resume)).\n\n I am a French citizen and a Permanent Resident of Canada.",
     "location": {
       "address": "2131 16 St SW",
       "postalCode": "T2T 4E5",
@@ -214,18 +214,16 @@
       "name": "AWS",
       "level": "☁️ Builder",
       "keywords": [
+        "CloudFormation",
+        "CDK",
         "EC2",
         "S3",
         "Lambda",
         "RDS",
-        "DynamoDB",
-        "CloudFormation",
         "SQS/SNS",
         "CloudWatch",
         "API Gateway",
-        "Route 53",
-        "CloudFront",
-        "Step Functions"
+        "..."
       ]
     },
     {

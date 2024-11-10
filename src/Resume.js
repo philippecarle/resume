@@ -10,7 +10,7 @@ import Separator from "./components/Separator";
 import Skills from "./components/Skills";
 
 const Resume = () => (
-  <Container className={"dark"}>
+  <Container className={"px-xs-5"}>
     <header>
       <Basics basics={resume.basics} languages={resume.languages} />
     </header>
@@ -21,7 +21,9 @@ const Resume = () => (
           <ExperienceList list={resume.work} />
         </Col>
         <Col md={4} className={"text-start"}>
+          <Separator className={"d-md-none"} />
           <Skills skills={resume.skills} />
+          <Separator />
           <CertificateList list={resume.certificates} />
         </Col>
         <Separator />
@@ -31,6 +33,7 @@ const Resume = () => (
           <InterestList list={resume.interests} />
         </Col>
         <Col md={4} className={"text-start"}>
+          <Separator className={"d-md-none"} />
           <EducationList list={resume.education} />
         </Col>
         <Separator />

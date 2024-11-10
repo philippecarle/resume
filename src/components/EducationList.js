@@ -7,7 +7,7 @@ const EducationList = ({ list }) => (
     {list.map((education, index, array) => (
       <div key={education.studyType} className={"py-2"}>
         <Education education={education} />
-        <Separator index={index} array={array} span={6} offset={6} />
+        <Separator index={index} array={array} />
       </div>
     ))}
   </div>
