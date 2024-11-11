@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin, FaStackOverflow, FaGlobe } from "react-icons/fa";
-import { Col, Row } from "react-bootstrap";
+import { Col, Image, Row } from "react-bootstrap";
 import ReactMarkdown from "react-markdown";
 import React from "react";
 import Separator from "./Separator";
@@ -21,6 +21,7 @@ class Basics extends React.Component {
       languages,
       basics: {
         name,
+        picture,
         label,
         phone,
         email,
@@ -40,8 +41,8 @@ class Basics extends React.Component {
     };
 
     return (
-      <>
-        <Row id={"main-title"} className={"pt-5"}>
+      <div id="basics">
+        <Row className={"pt-5"}>
           <Col md={6} sm={12}>
             <h1>{name}</h1>
             <h3>{label}</h3>
@@ -110,11 +111,18 @@ class Basics extends React.Component {
         )}
 
         <Row id="summary">
-          <Col md={12} className={"mb-0 text-justify"}>
+          <Col md={8} lg={10} className={"mb-0 text-justify"}>
             <ReactMarkdown>{summary}</ReactMarkdown>
           </Col>
+          <Col md={4} lg={2} >
+            <Row>
+              <Col md={12} xs={8} className="offset-xs-2">
+                <Image src={picture} fluid roundedCircle thumbnail />
+              </Col>
+            </Row>
+          </Col>
         </Row>
-      </>
+      </div>
     );
   }
 }
