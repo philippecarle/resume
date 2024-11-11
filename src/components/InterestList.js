@@ -1,6 +1,5 @@
 import { Col, Row } from "react-bootstrap";
 import Interest from "./Interest";
-import Separator from "./Separator";
 
 const InterestList = ({ list }) => (
   <div id={"interests"}>

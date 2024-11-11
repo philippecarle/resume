@@ -116,7 +116,7 @@ class Basics extends React.Component {
           </Col>
           <Col md={4} lg={2} >
             <Row>
-              <Col md={12} xs={8} className="offset-xs-2">
+              <Col md={12} xs={8} className="offset-2 offset-md-0">
                 <Image src={picture} fluid roundedCircle thumbnail />
               </Col>
             </Row>

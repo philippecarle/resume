@@ -1,9 +1,6 @@
 @use "~@fontsource/barlow/scss/mixins" as Barlow;
 
-@include Barlow.fontFace($weight: 200);
-@include Barlow.fontFace($weight: 400);
-@include Barlow.fontFace($weight: 600);
-@include Barlow.fontFace($weight: 800);
+@include Barlow.faces($weights: (200, 400, 600, 800));
 
 .text-prewrap {
   white-space: pre-wrap;
