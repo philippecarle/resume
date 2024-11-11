@@ -7,7 +7,7 @@
     "email": "c@rlephilip.pe",
     "phone": "+1 647 333 7661",
     "website": "https://ca.rlephilip.pe",
-    "summary": "**Experienced Tech Lead with 15+ years in freelancing, startups, and an international industrial group, specializing in PHP, JavaScript, Go, and Python.**\n\nKnown for delivering high-quality, maintainable solutions and fostering team growth, I bring a strategic, business-driven approach with strong technical leadership and clear communication skills. As a Tech Lead, I focus on balancing fast, effective feature delivery with robust quality standards.\n\nThis resume is maintained in compliance with the JSON Resume initiative for a JSON-based standard ([Github Repository](https://github.com/philippecarle/resume)).\n\n I am a French citizen and a Permanent Resident of Canada.",
+    "summary": "**Experienced Tech Lead with 15+ years in freelancing, startups, and an international industrial group, specializing in PHP, JavaScript, Go, and Python.**\n\nKnown for delivering high-quality, maintainable solutions and fostering team growth, I bring a strategic, business-driven approach with strong technical leadership and mentorship and clear communication skills. As a Tech Lead, I focus on balancing fast, effective feature delivery with robust quality standards.\n\nThis resume is maintained in compliance with the JSON Resume initiative for a JSON-based standard ([Github Repository](https://github.com/philippecarle/resume)).\n\n I am a French citizen and a Permanent Resident of Canada.",
     "location": {
       "address": "2131 16 St SW",
       "postalCode": "T2T 4E5",
@@ -42,12 +42,13 @@
       "summary": "[Pixieset](https://www.pixieset.com) is an all-in-one platform empowering photographers with tools for business management, from photo delivery and print sales to web services, contracts, and payment collection.\n\nAs Tech Lead of the Platform Team, I drive high-impact initiatives in photo processing, billing, identity systems, and high-volume email operations. I ensure secure and cost-efficient AWS infrastructure, lead project strategy, and spearhead R&D to support innovation.",
       "highlights": [
         "Led scaling of photo processing for billions of images with high efficiency and reliability",
-        "Overhauled billing and authentication systems to improve security and user experience",
-        "Optimized delivery of millions of emails monthly, achieving greater deliverability rates",
+        "Maintained and improved billing and authentication systems to improve reliability and user experience",
+        "Overhauled the emailing system in charge of the delivery of millions of emails monthly",
         "Streamlined AWS infrastructure for scalability, security, and cost optimization",
         "Built strong stakeholder relationships, clearly communicating progress and addressing risks",
         "Initiated project studies, proof of concepts, and R&D to drive forward-looking solutions",
-        "Cultivated team alignment with project deadlines, fostering high performance and morale"
+        "Cultivated team alignment with project deadlines, fostering high performance and morale",
+        "Mentored team members in code design and testability, fostering best practices and a collaborative growth culture"
       ]
     },
     {
@@ -60,9 +61,9 @@
       "highlights": [
         "Led international team through ERP and codebase migration challenges",
         "Championed SDLC best practices, CI/CD pipelines, and rigorous code reviews",
-        "Designed scalable solutions to transition 1M LOC procedural PHP to Symfony",
+        "Designed scalable solutions to transition 1M lines of procedural PHP to Symfony",
         "Orchestrated ERP transition from on-prem Baan IV to cloud-based Infor LN",
-        "Collaborated with external contractors, balancing internal and external expertise"
+        "Worked with and learned from top-tier contractors from Sensiolabs, the creators of Symfony"
       ]
     },
     {
@@ -74,7 +75,7 @@
       "summary": "Apodis Pharma delivers advanced B2B services for over 1,000 French pharmacies.\n\nI led a 10-person team in developing a Symfony-based custom store solution for pharmacies, fully compliant with the [Pharma-ML XML standard](https://www.csrp.fr/documentation/pharma-ml). The system included sophisticated discount and cost calculations and analytics for pharmacy sales data, supporting Apodis in raising €7 million in funding.",
       "highlights": [
         "Enhanced business agility in a startup environment, guiding a cross-functional team",
-        "Implemented large-scale data analytics to deliver actionable pharmacy insights",
+        "Implemented large-scale data analytics to deliver actionable pharmacy insights and profit optimization",
         "Played a pivotal role in securing €7M funding with data-driven applications"
       ]
     },

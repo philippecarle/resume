@@ -12,6 +12,9 @@
   .highlights {
     ul {
       columns: 2;
+      li {
+        break-inside: avoid-column;
+      }
     }
   }
 }
