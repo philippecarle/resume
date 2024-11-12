@@ -13,8 +13,8 @@ import DarkModeToggle from "./components/DarkModeToggle";
 
 const Resume = () => (
   <div>
-    <Container id="dark-mode-container" className={"pt-5"} fluid>
-      <Row className="justify-content-end">
+    <Container id="dark-mode-container" className={"pt-5"}>
+      <Row className="justify-content-end text-center text-md-end">
         <Col md={4}>
           <DarkModeProvider>
             <DarkModeToggle />

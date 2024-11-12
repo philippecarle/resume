@@ -32,18 +32,24 @@ const Skills = function ({ skills }) {
   );
 
   return (
-    <Row className={"text-start"} id="skills">
-      <h2 className={"section-title pb-3"}>Skills</h2>
-      <Col
-        xs={{
-          span: 6,
-          order: columns[0].length < columns[1].length ? "last" : "",
-        }}
-      >
-        {columns[0].map(skillRenderer)}
-      </Col>
-      <Col xs={{ span: 6 }}>{columns[1].map(skillRenderer)}</Col>
-    </Row>
+    <div id="skills">
+      <Row>
+        <Col>
+          <h2 className={"section-title pb-3"}>Skills</h2>
+        </Col>
+      </Row>
+      <Row className={"text-start"}>
+        <Col
+          xs={{
+            span: 6,
+            order: columns[0].length < columns[1].length ? "last" : "",
+          }}
+        >
+          {columns[0].map(skillRenderer)}
+        </Col>
+        <Col xs={{ span: 6 }}>{columns[1].map(skillRenderer)}</Col>
+      </Row>
+    </div>
   );
 };
 
