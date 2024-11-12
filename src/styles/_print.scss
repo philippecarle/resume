@@ -2,6 +2,9 @@
   body {
     font-size: 0.7rem !important;
   }
+  #dark-mode-container {
+    display: none;
+  }
   h1 {
     font-size: 3.4rem !important;
   }
@@ -23,7 +26,8 @@
   h6 {
     font-size: 1rem !important;
   }
-  blockquote, pre {
+  blockquote,
+  pre {
     border: none !important;
   }
   a:not(.btn) {
@@ -32,14 +36,17 @@
   pre {
     white-space: pre-wrap !important;
   }
-  pre, blockquote {
+  pre,
+  blockquote {
     border: 1px solid #adb5bd;
     page-break-inside: avoid;
   }
   img {
     page-break-inside: avoid;
   }
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     page-break-after: avoid;
   }
   @page {

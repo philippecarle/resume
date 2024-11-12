@@ -8,43 +8,56 @@ import InterestList from "./components/InterestList";
 import ReferenceList from "./components/ReferenceList";
 import Separator from "./components/Separator";
 import Skills from "./components/Skills";
+import { DarkModeProvider } from "./components/DarkModeContext";
+import DarkModeToggle from "./components/DarkModeToggle";
 
 const Resume = () => (
-  <Container className={"px-xs-5"}>
-    <header>
-      <Basics basics={resume.basics} languages={resume.languages} />
-    </header>
-    <Separator />
-    <main>
-      <Row>
-        <Col md={8}>
-          <ExperienceList list={resume.work} />
+  <div>
+    <Container id="dark-mode-container" className={"pt-5"} fluid>
+      <Row className="justify-content-end">
+        <Col md={4}>
+          <DarkModeProvider>
+            <DarkModeToggle />
+          </DarkModeProvider>
         </Col>
-        <Col md={4} className={"text-start"}>
-          <Separator className={"d-md-none"} />
-          <Skills skills={resume.skills} />
+      </Row>
+    </Container>
+    <Container className={"px-xs-5"}>
+      <header>
+        <Basics basics={resume.basics} languages={resume.languages} />
+      </header>
+      <Separator />
+      <main>
+        <Row>
+          <Col md={8}>
+            <ExperienceList list={resume.work} />
+          </Col>
+          <Col md={4} className={"text-start"}>
+            <Separator className={"d-md-none"} />
+            <Skills skills={resume.skills} />
+            <Separator />
+            <CertificateList list={resume.certificates} />
+          </Col>
           <Separator />
-          <CertificateList list={resume.certificates} />
-        </Col>
-        <Separator />
-      </Row>
-      <Row>
-        <Col md={8}>
-          <InterestList list={resume.interests} />
-        </Col>
-        <Col md={4} className={"text-start"}>
-          <Separator className={"d-md-none"} />
-          <EducationList list={resume.education} />
-        </Col>
-        <Separator />
-      </Row>
-      <Row>
-        <Col>
-          <ReferenceList list={resume.references} />
-        </Col>
-      </Row>
-    </main>
-  </Container>
+        </Row>
+        <Row>
+          <Col md={8}>
+            <InterestList list={resume.interests} />
+          </Col>
+          <Col md={4} className={"text-start"}>
+            <Separator className={"d-md-none"} />
+            <EducationList list={resume.education} />
+          </Col>
+          <Separator />
+        </Row>
+        <Row>
+          <Col>
+            <ReferenceList list={resume.references} />
+          </Col>
+        </Row>
+      </main>
+    </Container>
+  </div>
 );
 
 export default Resume;

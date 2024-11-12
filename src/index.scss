@@ -1,7 +1,8 @@
 // Configuration
 @import "~bootstrap/scss/functions";
-@import "~bootstrap/scss/variables";
 @import "styles/variables";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/variables-dark";
 @import "~bootstrap/scss/maps";
 @import "~bootstrap/scss/mixins";
 @import "~bootstrap/scss/utilities";
@@ -29,3 +30,4 @@
 @import "styles/references";
 @import "styles/skills";
 @import "styles/type";
+@import "styles/dark-mode";

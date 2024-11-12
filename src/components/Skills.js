@@ -4,13 +4,16 @@ import Separator from "./Separator";
 import React from "react";
 
 const Skills = function ({ skills }) {
-  const sortedSkills = [...skills].sort((a, b) => b.keywords.length - a.keywords.length);
+  const sortedSkills = [...skills].sort(
+    (a, b) => b.keywords.length - a.keywords.length,
+  );
 
   const columns = [[], []];
   const columnKeywordsCount = [0, 0];
 
-  sortedSkills.forEach(skill => {
-    const columnIndex = columnKeywordsCount[0] <= columnKeywordsCount[1] ? 0 : 1;
+  sortedSkills.forEach((skill) => {
+    const columnIndex =
+      columnKeywordsCount[0] <= columnKeywordsCount[1] ? 0 : 1;
     columns[columnIndex].push(skill);
     columnKeywordsCount[columnIndex] += skill.keywords.length;
   });
@@ -31,12 +34,15 @@ const Skills = function ({ skills }) {
   return (
     <Row className={"text-start"} id="skills">
       <h2 className={"section-title pb-3"}>Skills</h2>
-      <Col xs={{ span: 6, order: columns[0].length < columns[1].length ? "last" : "" }}>
+      <Col
+        xs={{
+          span: 6,
+          order: columns[0].length < columns[1].length ? "last" : "",
+        }}
+      >
         {columns[0].map(skillRenderer)}
       </Col>
-      <Col xs={{ span: 6 }}>
-        {columns[1].map(skillRenderer)}
-      </Col>
+      <Col xs={{ span: 6 }}>{columns[1].map(skillRenderer)}</Col>
     </Row>
   );
 };

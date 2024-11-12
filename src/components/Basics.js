@@ -42,7 +42,7 @@ class Basics extends React.Component {
 
     return (
       <div id="basics">
-        <Row className={"pt-5"}>
+        <Row className={"pt-2"}>
           <Col md={6} sm={12}>
             <h1>{name}</h1>
             <h3>{label}</h3>
@@ -70,23 +70,23 @@ class Basics extends React.Component {
             </ul>
           </Col>
           <Col md={2} className={"text-md-end text-start"}>
-          <ul className={"list-unstyled d-grid gap-2 pt-4"}>
-            {profiles.length > 0 && (
-              <>
-                {profiles.map(({ network, url }) => (
-                  <li key={network}>
-                    <span>
-                      {/* Use icon from iconMap or FaGlobe as a fallback */}
-                      {iconMap[network] || <FaGlobe />}{" "}
-                      <a href={url} target="_blank" rel="noopener noreferrer">
-                        {network}
-                      </a>
-                    </span>
-                  </li>
-                ))}
-              </>
-            )}
-          </ul>
+            <ul className={"list-unstyled d-grid gap-2 pt-4"}>
+              {profiles.length > 0 && (
+                <>
+                  {profiles.map(({ network, url }) => (
+                    <li key={network}>
+                      <span>
+                        {/* Use icon from iconMap or FaGlobe as a fallback */}
+                        {iconMap[network] || <FaGlobe />}{" "}
+                        <a href={url} target="_blank" rel="noopener noreferrer">
+                          {network}
+                        </a>
+                      </span>
+                    </li>
+                  ))}
+                </>
+              )}
+            </ul>
           </Col>
         </Row>
         <Separator />
@@ -110,11 +110,16 @@ class Basics extends React.Component {
           </>
         )}
 
-        <Row id="summary" >
+        <Row id="summary">
           <Col md={8} lg={8} xl={10} className={"mb-0 text-justify"}>
             <ReactMarkdown>{summary}</ReactMarkdown>
           </Col>
-          <Col md={4} lg={3} xl={2} className="order-first order-md-last offset-lg-1 offset-xl-0" >
+          <Col
+            md={4}
+            lg={3}
+            xl={2}
+            className="order-first order-md-last offset-lg-1 offset-xl-0"
+          >
             <Row className="justify-content-center">
               <Col md={12} xs={8}>
                 <Image src={picture} fluid roundedCircle thumbnail />

@@ -1,7 +1,10 @@
 $font-family-sans-serif: "Barlow";
 
-$link-color: black;
-$link-hover-color: black;
+$link-color: rgb(161, 12, 12);
+$link-color-dark: rgb(217, 54, 54);
+
+$link-hover-color: lighten($link-color, 10);
+$link-hover-color-dark: lighten($link-color-dark, 10);
 
 $small-font-size: 0.75em;
 
