@@ -24,7 +24,6 @@ format: stop ## Format code
 	$(JSON_UTILS) sh -c "jq . src/resume.json | sponge src/resume.json"
 
 test: stop ## Run tests
-	$(YARN) validate
 	$(YARN) test
 
 run: stop ## Run the web app

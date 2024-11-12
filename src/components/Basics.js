@@ -37,7 +37,7 @@ class Basics extends React.Component {
     const iconMap = {
       Github: <FaGithub />,
       LinkedIn: <FaLinkedin />,
-      "Stack Overflow": <FaStackOverflow />
+      "Stack Overflow": <FaStackOverflow />,
     };
 
     return (
@@ -110,16 +110,17 @@ class Basics extends React.Component {
           </>
         )}
 
-        <Row id="summary">
-          <Col md={8} lg={10} className={"mb-0 text-justify"}>
+        <Row id="summary" >
+          <Col md={8} lg={8} xl={10} className={"mb-0 text-justify"}>
             <ReactMarkdown>{summary}</ReactMarkdown>
           </Col>
-          <Col md={4} lg={2} >
-            <Row>
-              <Col md={12} xs={8} className="offset-2 offset-md-0">
+          <Col md={4} lg={3} xl={2} className="order-first order-md-last offset-lg-1 offset-xl-0" >
+            <Row className="justify-content-center">
+              <Col md={12} xs={8}>
                 <Image src={picture} fluid roundedCircle thumbnail />
               </Col>
             </Row>
+            <Separator className="d-md-none" />
           </Col>
         </Row>
       </div>

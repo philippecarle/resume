@@ -1,6 +1,6 @@
 services:
   resume:
-    image: node:lts
+    image: node:22
     working_dir: /usr/app
     volumes:
       - .:/usr/app
