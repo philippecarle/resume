@@ -16,7 +16,10 @@ body[data-bs-theme="dark"] {
 
 #dark-mode {
   transition: background-color 400ms cubic-bezier(0.995, -0.265, 0.855, 0.505);
-  cursor: pointer;
+  span {
+    cursor: pointer;
+    padding: 10px 0;
+  }
 
   transition:
     background-color 400ms cubic-bezier(0.995, -0.265, 0.855, 0.505),

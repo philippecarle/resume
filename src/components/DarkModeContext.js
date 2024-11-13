@@ -1,33 +1,48 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useState, useEffect } from "react";
 
 const DarkModeContext = createContext();
 
 function DarkModeProvider({ children }) {
   const [darkMode, setDarkMode] = useState(() => {
-    const initialValue = localStorage.getItem("dark-mode") === "on";
-    if (initialValue) {
+    const savedDarkMode = localStorage.getItem("dark-mode") === "on";
+    const systemDarkMode =
+      window.matchMedia &&
+      window.matchMedia("(prefers-color-scheme: dark)").matches;
+    if (savedDarkMode || systemDarkMode) {
       document.body.setAttribute("data-bs-theme", "dark");
+      return true;
     }
-    return initialValue;
+
+    return false;
   });
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-    if (darkMode && !document.body.hasAttribute("data-bs-theme")) {
+
+  useEffect(() => {
+    if (darkMode) {
       document.body.setAttribute("data-bs-theme", "dark");
       localStorage.setItem("dark-mode", "on");
-
       return;
     }
 
     document.body.removeAttribute("data-bs-theme");
     localStorage.setItem("dark-mode", "off");
+
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+
+    const handleSystemThemeChange = (e) => {
+      setDarkMode(e.matches);
+    };
+
+    mediaQuery.addEventListener("change", handleSystemThemeChange);
+  }, [darkMode]);
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode);
   };
+
   return (
-    <div>
-      <DarkModeContext.Provider value={{ darkMode, toggleDarkMode }}>
-        {children}
-      </DarkModeContext.Provider>
-    </div>
+    <DarkModeContext.Provider value={{ darkMode, toggleDarkMode }}>
+      {children}
+    </DarkModeContext.Provider>
   );
 }
 
