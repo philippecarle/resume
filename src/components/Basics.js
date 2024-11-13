@@ -122,7 +122,7 @@ class Basics extends React.Component {
           >
             <Row className="justify-content-center">
               <Col md={12} xs={8}>
-                <Image src={picture} fluid roundedCircle thumbnail />
+                <Image src={picture} alt="Philippe Carle, Tech Lead" fluid roundedCircle thumbnail />
               </Col>
             </Row>
             <Separator className="d-md-none" />
